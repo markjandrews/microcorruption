@@ -1,0 +1,1711 @@
+CONNECT www.microcorruption.com:443 HTTP/1.1
+Host: www.microcorruption.com:443
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.3 (TLS/1.2)
+Random: 3D 98 32 EC 39 75 93 63 7C 98 C3 A3 67 E6 71 FF 84 BC C3 9C E6 CA C5 5A E6 9D 9A A5 00 C6 85 C9
+"Time": 29/07/2095 10:45:49 AM
+SessionID: 89 87 09 CA 21 31 71 F8 04 4B 72 8E 12 96 68 4E A4 47 7D DC F9 8E E4 99 4A 13 AA 7F BA 3B 62 6F
+Extensions: 
+	renegotiation_info	00
+	server_name	www.microcorruption.com
+	extended_master_secret	empty
+	SessionTicket	4B F2 25 53 C1 22 3D 29 3D 6A A8 15 78 98 12 F6 B5 EB 99 31 15 71 57 49 4B EF FA 22 70 1F 66 0D 11 C0 C3 A0 23 04 85 43 84 E8 20 6B 74 B4 93 0F 29 7E FF B1 A8 FB 3D 80 D2 4B 70 6D 94 6B 41 8D 76 33 86 5B 31 46 8D 4A 0A 13 DE D9 CC 31 6F B4 22 34 01 1E 33 CF EC 73 99 DF 95 90 83 77 75 53 C9 27 A4 7C F2 50 6D 69 F2 33 BF 53 24 16 54 E2 F6 80 E0 F5 95 20 F8 C6 EA 7E 27 BE 60 49 36 BF FD 17 5E D8 7B CA AE CF 42 B4 37 85 10 CC 1A F0 8B 02 8A A0 D2 FD C6 DA FE 2D D7 49 BE B0 CC 0A 1E C6 C8 15 B0 70 6E AD AF 48 62 98 4A AC 2A CD 1E 4D 21 4F 76 61 B3 F1 9C C2 BA D9 D4 F1 97 D8 D8 56 B7 D3 93 10 C4 7E 03 3B D2 DB 79 44 CB 42
+	signature_algs	sha512_rsa, sha512_ecdsa, sha384_rsa, sha384_ecdsa, sha256_rsa, sha256_ecdsa, sha224_rsa, sha224_ecdsa, sha1_rsa, sha1_ecdsa
+	status_request	OCSP - Implicit Responder
+	NextProtocolNego	empty
+	SignedCertTimestamp (RFC6962)	empty
+	ALPN		h2, spdy/3.1, http/1.1
+	channel_id(GoogleDraft)	empty
+	ec_point_formats	uncompressed [0x0]
+	elliptic_curves	secp256r1 [0x17], secp384r1 [0x18]
+	padding	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Ciphers: 
+	[C02B]	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+	[C02F]	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	[009E]	TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+	[CC14]	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+	[CC13]	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+	[C00A]	TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C014]	TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[0039]	TLS_DHE_RSA_WITH_AES_256_SHA
+	[C009]	TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C013]	TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[0033]	TLS_DHE_RSA_WITH_AES_128_SHA
+	[009C]	TLS_RSA_WITH_AES_128_GCM_SHA256
+	[0035]	TLS_RSA_AES_256_SHA
+	[002F]	TLS_RSA_AES_128_SHA
+	[000A]	SSL_RSA_WITH_3DES_EDE_SHA
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+
+
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 11:10:35.901
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes256 256bits
+Hash Algorithm: Sha384 384bits
+Key Exchange: ECDHE_RSA (0xae06) 256bits
+
+== Server Certificate ==========
+[Subject]
+  CN=microcorruption.com, OU=Gandi Standard SSL, OU=Domain Control Validated
+
+[Issuer]
+  CN=Gandi Standard SSL CA 2, O=Gandi, L=Paris, S=Paris, C=FR
+
+[Serial Number]
+  00EF4A224DA81F6A3B2351EEE47ECEBCC5
+
+[Not Before]
+  16/01/2015 11:00:00 AM
+
+[Not After]
+  17/01/2018 10:59:59 AM
+
+[Thumbprint]
+  BEA481BA26FC38B248260C48DE7F0903EE5B2FC0
+
+[SubjectAltNames]
+microcorruption.com, www.microcorruption.com
+
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/login HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 98
+Cache-Control: no-cache, private
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: https://www.microcorruption.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: https://www.microcorruption.com/login
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7BzoPcmV0dXJuX3VybEkiMGh0dHA6Ly93d3cubWljcm9jb3JydXB0aW9uLmNvbS9jcHUvZGJnL2tpbGwGOgZFRkkiD3Nlc3Npb25faWQGOwZGSSIlZWUwNGU1NTRjNmJhYzgxNDZjZGNiM2JmMDY1OGE2NGMGOwZU--1c14d0dd9892a15a37d76d445c36969ced343ce1
+
+name=userlame&password=daria2hug&authenticity_token=Q8UYI2zSYKQfPFtZ7DmhGC7x5xv3RJMGI1UKbswIVqk%3D
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:30 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Location: http://www.microcorruption.com/
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+Set-Cookie: _cpuctf_session=BAh7BzoJdXNlcmkCQhhJIg9zZXNzaW9uX2lkBjoGRUZJIiU2YzYyMTM2NjU4YzdhYWUyMDMzODhlMDlmZTE4NTdjNgY7BlQ%3D--45a6985afe78afdccafadf4abd11d11fd5a4df33; path=/; HttpOnly
+X-Request-Id: 261d6068e3d05e23406457449afd136c
+X-Runtime: 0.022345
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 97
+
+<html><body>You are being <a href="http://www.microcorruption.com/">redirected</a>.</body></html>
+
+------------------------------------------------------------------
+
+CONNECT www.microcorruption.com:443 HTTP/1.1
+Host: www.microcorruption.com:443
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.3 (TLS/1.2)
+Random: 18 7A 19 12 F6 E4 7A E8 80 0A 64 EA 63 44 B5 3E 86 B3 76 00 83 EF 1E 8D CE 75 02 F4 1F BA 2A 72
+"Time": 16/08/1979 11:52:24 PM
+SessionID: B5 2A 00 00 48 A9 31 43 38 16 D4 A8 93 A8 DA 4D 6C 90 5F 81 9C 05 A5 6A D7 68 28 E4 7C F5 4B 69
+Extensions: 
+	renegotiation_info	00
+	server_name	www.microcorruption.com
+	extended_master_secret	empty
+	SessionTicket	empty
+	signature_algs	sha512_rsa, sha512_ecdsa, sha384_rsa, sha384_ecdsa, sha256_rsa, sha256_ecdsa, sha224_rsa, sha224_ecdsa, sha1_rsa, sha1_ecdsa
+	status_request	OCSP - Implicit Responder
+	NextProtocolNego	empty
+	SignedCertTimestamp (RFC6962)	empty
+	ALPN		h2, spdy/3.1, http/1.1
+	channel_id(GoogleDraft)	empty
+	ec_point_formats	uncompressed [0x0]
+	elliptic_curves	secp256r1 [0x17], secp384r1 [0x18]
+Ciphers: 
+	[C02B]	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+	[C02F]	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	[009E]	TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+	[CC14]	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+	[CC13]	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+	[C00A]	TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C014]	TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[0039]	TLS_DHE_RSA_WITH_AES_256_SHA
+	[C009]	TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C013]	TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[0033]	TLS_DHE_RSA_WITH_AES_128_SHA
+	[009C]	TLS_RSA_WITH_AES_128_GCM_SHA256
+	[0035]	TLS_RSA_AES_256_SHA
+	[002F]	TLS_RSA_AES_128_SHA
+	[000A]	SSL_RSA_WITH_3DES_EDE_SHA
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+
+
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 11:10:37.115
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes256 256bits
+Hash Algorithm: Sha384 384bits
+Key Exchange: ECDHE_RSA (0xae06) 256bits
+
+== Server Certificate ==========
+[Subject]
+  CN=microcorruption.com, OU=Gandi Standard SSL, OU=Domain Control Validated
+
+[Issuer]
+  CN=Gandi Standard SSL CA 2, O=Gandi, L=Paris, S=Paris, C=FR
+
+[Serial Number]
+  00EF4A224DA81F6A3B2351EEE47ECEBCC5
+
+[Not Before]
+  16/01/2015 11:00:00 AM
+
+[Not After]
+  17/01/2018 10:59:59 AM
+
+[Thumbprint]
+  BEA481BA26FC38B248260C48DE7F0903EE5B2FC0
+
+[SubjectAltNames]
+microcorruption.com, www.microcorruption.com
+
+
+------------------------------------------------------------------
+
+CONNECT www.microcorruption.com:443 HTTP/1.1
+Host: www.microcorruption.com:443
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.3 (TLS/1.2)
+Random: B5 9F 00 56 B7 9E 4A 20 1F DE FC 18 D2 F2 0C 90 30 F9 64 3B 28 54 CC C4 8E 80 D0 04 06 58 C4 4B
+"Time": 22/09/2015 10:24:21 AM
+SessionID: B5 2A 00 00 48 A9 31 43 38 16 D4 A8 93 A8 DA 4D 6C 90 5F 81 9C 05 A5 6A D7 68 28 E4 7C F5 4B 69
+Extensions: 
+	renegotiation_info	00
+	server_name	www.microcorruption.com
+	extended_master_secret	empty
+	SessionTicket	empty
+	signature_algs	sha512_rsa, sha512_ecdsa, sha384_rsa, sha384_ecdsa, sha256_rsa, sha256_ecdsa, sha224_rsa, sha224_ecdsa, sha1_rsa, sha1_ecdsa
+	status_request	OCSP - Implicit Responder
+	NextProtocolNego	empty
+	SignedCertTimestamp (RFC6962)	empty
+	ALPN		h2, spdy/3.1, http/1.1
+	channel_id(GoogleDraft)	empty
+	ec_point_formats	uncompressed [0x0]
+	elliptic_curves	secp256r1 [0x17], secp384r1 [0x18]
+Ciphers: 
+	[C02B]	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+	[C02F]	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	[009E]	TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+	[CC14]	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+	[CC13]	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+	[C00A]	TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C014]	TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[0039]	TLS_DHE_RSA_WITH_AES_256_SHA
+	[C009]	TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C013]	TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[0033]	TLS_DHE_RSA_WITH_AES_128_SHA
+	[009C]	TLS_RSA_WITH_AES_128_GCM_SHA256
+	[0035]	TLS_RSA_AES_256_SHA
+	[002F]	TLS_RSA_AES_128_SHA
+	[000A]	SSL_RSA_WITH_3DES_EDE_SHA
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+
+
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 11:10:37.119
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes256 256bits
+Hash Algorithm: Sha384 384bits
+Key Exchange: ECDHE_RSA (0xae06) 256bits
+
+== Server Certificate ==========
+[Subject]
+  CN=microcorruption.com, OU=Gandi Standard SSL, OU=Domain Control Validated
+
+[Issuer]
+  CN=Gandi Standard SSL CA 2, O=Gandi, L=Paris, S=Paris, C=FR
+
+[Serial Number]
+  00EF4A224DA81F6A3B2351EEE47ECEBCC5
+
+[Not Before]
+  16/01/2015 11:00:00 AM
+
+[Not After]
+  17/01/2018 10:59:59 AM
+
+[Thumbprint]
+  BEA481BA26FC38B248260C48DE7F0903EE5B2FC0
+
+[SubjectAltNames]
+microcorruption.com, www.microcorruption.com
+
+
+------------------------------------------------------------------
+
+CONNECT www.microcorruption.com:443 HTTP/1.1
+Host: www.microcorruption.com:443
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.3 (TLS/1.2)
+Random: 9F 58 00 7B 73 E2 AC 97 93 2E 5B 4A 1E D0 1A 42 1A DE 96 68 CD C8 A5 69 BC EE 3E CF 4C 7A FF 48
+"Time": 24/05/2035 9:50:55 PM
+SessionID: B5 2A 00 00 48 A9 31 43 38 16 D4 A8 93 A8 DA 4D 6C 90 5F 81 9C 05 A5 6A D7 68 28 E4 7C F5 4B 69
+Extensions: 
+	renegotiation_info	00
+	server_name	www.microcorruption.com
+	extended_master_secret	empty
+	SessionTicket	empty
+	signature_algs	sha512_rsa, sha512_ecdsa, sha384_rsa, sha384_ecdsa, sha256_rsa, sha256_ecdsa, sha224_rsa, sha224_ecdsa, sha1_rsa, sha1_ecdsa
+	status_request	OCSP - Implicit Responder
+	NextProtocolNego	empty
+	SignedCertTimestamp (RFC6962)	empty
+	ALPN		h2, spdy/3.1, http/1.1
+	channel_id(GoogleDraft)	empty
+	ec_point_formats	uncompressed [0x0]
+	elliptic_curves	secp256r1 [0x17], secp384r1 [0x18]
+Ciphers: 
+	[C02B]	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+	[C02F]	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	[009E]	TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+	[CC14]	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+	[CC13]	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+	[C00A]	TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C014]	TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[0039]	TLS_DHE_RSA_WITH_AES_256_SHA
+	[C009]	TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C013]	TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[0033]	TLS_DHE_RSA_WITH_AES_128_SHA
+	[009C]	TLS_RSA_WITH_AES_128_GCM_SHA256
+	[0035]	TLS_RSA_AES_256_SHA
+	[002F]	TLS_RSA_AES_128_SHA
+	[000A]	SSL_RSA_WITH_3DES_EDE_SHA
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+
+
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 11:10:37.116
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes256 256bits
+Hash Algorithm: Sha384 384bits
+Key Exchange: ECDHE_RSA (0xae06) 256bits
+
+== Server Certificate ==========
+[Subject]
+  CN=microcorruption.com, OU=Gandi Standard SSL, OU=Domain Control Validated
+
+[Issuer]
+  CN=Gandi Standard SSL CA 2, O=Gandi, L=Paris, S=Paris, C=FR
+
+[Serial Number]
+  00EF4A224DA81F6A3B2351EEE47ECEBCC5
+
+[Not Before]
+  16/01/2015 11:00:00 AM
+
+[Not After]
+  17/01/2018 10:59:59 AM
+
+[Thumbprint]
+  BEA481BA26FC38B248260C48DE7F0903EE5B2FC0
+
+[SubjectAltNames]
+microcorruption.com, www.microcorruption.com
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/ HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Cache-Control: no-cache, private
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7BzoJdXNlcmkCQhhJIg9zZXNzaW9uX2lkBjoGRUZJIiU2YzYyMTM2NjU4YzdhYWUyMDMzODhlMDlmZTE4NTdjNgY7BlQ%3D--45a6985afe78afdccafadf4abd11d11fd5a4df33
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:30 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "82bd60d4a48daaea3592f88b12118145"
+Cache-Control: must-revalidate, private, max-age=0
+Set-Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARg%3D%3D--368fc7462857f196a7046fba58467fb5098f5e85; path=/; HttpOnly
+X-Request-Id: a4d02bf49357a597f2c48d226093c888
+X-Runtime: 0.004250
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 3647
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ltie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]> ><! <![endif]-->
+<html lang='en'>
+<!-- <![endif] -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='' name='keywords'>
+<meta content='' name='description'>
+<meta content='' name='author'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=" name="csrf-token" />
+<script src="/assets/application-a237f6ba975152067b88e2b0aa2eb4c5.js" type="text/javascript"></script>
+<link href="/assets/application-974b835d4cab4eed5e6134e3f82960f8.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Embedded Security CTF</title>
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+<header id='header'>
+<div class='wrap clearfix'>
+<a class='logo left' href='http://matasano.com/careers'>
+<img height='30' src='/assets/mtsologo.png' width='30'>
+</a>
+<a class='logo left' href='//squareup.com/' style='position: relative; top: 3px;'>
+<img height='22' src='/assets/squarelogo.png' width='22'>
+</a>
+<nav class='right' id='nav'>
+<ul>
+<li>
+<a href='/'>Main</a>
+</li>
+<li>
+<a href='/profile/6210'>Profile</a>
+</li>
+<li>
+<a href='/hall_of_fame'>Hall of Fame</a>
+</li>
+<li>
+<a href='/assembler'>Assembler</a>
+</li>
+<li>
+<a href='/manual.pdf'>Lock Manual</a>
+</li>
+<li>
+<a href='/about'>About</a>
+</li>
+<li>
+<a href='/logout'>Logout</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id='flashes'>
+<div class='wrap clearfix'>
+</div>
+</div>
+<script src="/assets/map-5f97aa985abc5c09917fffbd7e16dd98.js" type="text/javascript"></script>
+<link href="/assets/map-57427d0285fbe57d08bb0ca62f2dc389.css" media="screen" rel="stylesheet" type="text/css" />
+<main id='main_content'>
+<div class='wrap'>
+<section id='mapheader'>
+<header class='page_header'>
+<h2>
+Choose Your<br>Next Level
+</h2>
+</header>
+</section>
+<section class='countries'>
+<ul></ul>
+</section>
+<section id='markers'></section>
+</div>
+</main>
+
+<footer id='footer'>
+<div class='wrap'>
+<div class='copy align_center'>© Matasano Security and Square, Inc 2014</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+  String.prototype.last = function(n) {
+    if (n > this.length)
+      return this;
+    else {
+      return this.substring(this.length, this.length - n);
+    }
+  };
+  
+  var csrf_param = $("meta[name=csrf-param]").attr('content');
+  var csrf_value = $("meta[name=csrf-token]").attr('content');
+  
+  $(function() { 
+    $("form.real").each(function() {
+      $("<input>").attr("type", "HIDDEN").
+        attr("name", csrf_param).
+        val(csrf_value).
+        appendTo($(this));
+    });
+  
+    $(".close").click(function() {
+      console.log("whee", this, $(this).closest(".alert"));
+      $(this).closest(".alert").remove()
+    });
+  });
+  
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+                             $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+  $(function() {
+   function moveFooter() {
+     var offset = $(window).height() - $('body').height();
+     if (offset > 0) {
+       $('footer').css('position', 'relative').css('top', offset + 'px');
+     } else {
+       $('footer').css('position', 'static');
+     }
+   }
+   $(window).resize(moveFooter);
+   $(window).load(moveFooter);
+   moveFooter();
+  });
+</script>
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/get_levels HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARg%3D%3D--368fc7462857f196a7046fba58467fb5098f5e85
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:30 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d299007faf9d17ed8e6b88af360b8d77"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 9bc3e9ba914db21627b4738fd28e1363
+X-Runtime: 0.005560
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 1146
+
+{"levels":[{"code":"","name":"Tutorial","rating":"10","needed":[],"done":true,"ready":true,"top":"337","left":"280"},{"code":"","name":"New Orleans","rating":"10","needed":["Tutorial"],"done":true,"ready":true,"top":"386","left":"228"},{"code":"","name":"Sydney","rating":"15","needed":["New Orleans"],"done":true,"ready":true,"top":"600","left":"1010"},{"code":"","name":"Hanoi","rating":"20","needed":["Sydney"],"done":true,"ready":true,"top":"415","left":"861"},{"code":"","name":"Cusco","rating":"25","needed":["Hanoi"],"done":true,"ready":true,"top":"522","left":"285"},{"code":"","name":"Reykjavik","rating":"35","needed":["Sydney"],"done":true,"ready":true,"top":"210","left":"450"},{"code":"","name":"Whitehorse","rating":"50","needed":["Cusco"],"done":true,"ready":true,"top":"235","left":"87"},{"code":"","name":"Montevideo","rating":"50","needed":["Whitehorse"],"done":true,"ready":true,"top":"596","left":"336"},{"code":"","name":"Johannesburg","rating":"20","needed":[],"done":false,"ready":true,"top":"568","left":"616"},{"code":"","name":"Addis Ababa","rating":"50","needed":[],"done":false,"ready":true,"top":"446","left":"643"}]}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/favicon.ico HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept: */*
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARg%3D%3D--368fc7462857f196a7046fba58467fb5098f5e85
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:30 GMT
+Content-Type: image/x-icon
+Content-Length: 0
+Last-Modified: Wed, 16 Sep 2015 16:31:30 GMT
+Connection: keep-alive
+ETag: "55f99962-0"
+Strict-Transport-Security: max-age=3456000
+Accept-Ranges: bytes
+
+
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/is_alive HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARg%3D%3D--368fc7462857f196a7046fba58467fb5098f5e85
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:32 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "b326b5062b2f0e69046810717534cb09"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87; path=/; HttpOnly
+X-Request-Id: 4ecbeae3608b04cd08c3dee9d32fb586
+X-Runtime: 0.004612
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 4
+
+true
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/dbg/kill HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:34 GMT
+Content-Type: text/javascript; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "b326b5062b2f0e69046810717534cb09"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: e0e9b6a876cecd1b35dceefe376cf4da
+X-Runtime: 0.002577
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 4
+
+true
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/set_level HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 30
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+{"body":{"level":"Reykjavik"}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:34 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d9f3f8a85a80554b1b701f17ef8a6578"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: b95f43cd220624c61f284615142a9b0f
+X-Runtime: 0.020213
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 21
+
+{"success":"success"}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/cpu/debugger HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:34 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "594773f055dbc7651bfd3ffaa8a4d708"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 65343b0a2e5b04167c04c15fd5e0b466
+X-Runtime: 0.015312
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 24759
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ltie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]> ><! <![endif]-->
+<html lang='en'>
+<!-- <![endif] -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='' name='keywords'>
+<meta content='' name='description'>
+<meta content='' name='author'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=" name="csrf-token" />
+<script src="/assets/application-a237f6ba975152067b88e2b0aa2eb4c5.js" type="text/javascript"></script>
+<link href="/assets/application-974b835d4cab4eed5e6134e3f82960f8.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Embedded Security CTF</title>
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+<header id='header'>
+<div class='wrap clearfix'>
+<a class='logo left' href='http://matasano.com/careers'>
+<img height='30' src='/assets/mtsologo.png' width='30'>
+</a>
+<a class='logo left' href='//squareup.com/' style='position: relative; top: 3px;'>
+<img height='22' src='/assets/squarelogo.png' width='22'>
+</a>
+<nav class='right' id='nav'>
+<ul>
+<li>
+<a href='/'>Main</a>
+</li>
+<li>
+<a href='/profile/6210'>Profile</a>
+</li>
+<li>
+<a href='/hall_of_fame'>Hall of Fame</a>
+</li>
+<li>
+<a href='/assembler'>Assembler</a>
+</li>
+<li>
+<a href='/manual.pdf'>Lock Manual</a>
+</li>
+<li>
+<a href='/about'>About</a>
+</li>
+<li>
+<a href='/logout'>Logout</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id='flashes'>
+<div class='wrap clearfix'>
+</div>
+</div>
+<script src="/assets/pagebody-df45cb0631518620834e9bb833418041.js" type="text/javascript"></script>
+<script src="/assets/guide-2cf611b7ffd734bbf045f1ea8c23da13.js" type="text/javascript"></script>
+<link href="/assets/debugger-2069d7cd3ced1a62004841545ae8342d.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/assets/guideline-824f2f93d9fb439801534265711ae479.css" media="screen" rel="stylesheet" type="text/css" />
+<main id='main_content'>
+<div class='wrap'>
+<div class='column-2'>
+<div class='gold-box smaller'>
+<h2 class='h2hide'>Register State</h2>
+<code id='registers'><pre>pc  0000  sp  0000  sr  0000  cg  0000</pre>
+<pre>r04 0000  r05 0000  r06 0000  r07 0000</pre>
+<pre>r08 0000  r09 0000  r10 0000  r11 0000</pre>
+<pre>r12 0000  r13 0000  r14 0000  r15 0000</pre></code>
+</div>
+<div class='gold-box smaller2'>
+<h2 class='h2hide'>Current Instruction</h2>
+<code id='memorywatch'><pre id='insnbytes'></pre>
+<pre id='insndecoded'></pre>
+<pre><br></pre>
+<pre><br></pre></code>
+</div>
+<div style='clear: both'></div>
+<div class='teal-box'>
+<h2 class='h2hide'>Debugger Console</h2>
+<code><div class='replresponsesouter'>
+<pre id='responses'></pre>
+</div></code>
+<div class='textentrywrap'>
+<input autocomplete='false' autofocus='autofocus' class='textentry' id='textentry' spellcheck='false'>
+</div>
+</div>
+<div class='teal-box'>
+<h2 class='h2hide'>I/O Console</h2>
+<code class='ioresponsesouter'><pre id='ioresponses'></pre></code>
+</div>
+</div>
+<div class='column-1'>
+<div class='teal-box' id='asmboxwrap'>
+<h2 class='h2hide'>Disassembly</h2>
+<code class='asmbox' id='asmbox'><div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>0010 &lt;__trap_interrupt&gt;</pre>
+</div>
+<div class='insn' id='insn0010' onclick='togglebreakpoint(this.id)'>
+<pre>0010:  3041           ret</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4400 &lt;__init_stack&gt;</pre>
+</div>
+<div class='insn' id='insn4400' onclick='togglebreakpoint(this.id)'>
+<pre>4400:  3140 0044      mov	#0x4400, sp</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4404 &lt;__low_level_init&gt;</pre>
+</div>
+<div class='insn' id='insn4404' onclick='togglebreakpoint(this.id)'>
+<pre>4404:  1542 5c01      mov	&amp;0x015c, r5</pre>
+</div>
+<div class='insn' id='insn4408' onclick='togglebreakpoint(this.id)'>
+<pre>4408:  75f3           and.b	#-0x1, r5</pre>
+</div>
+<div class='insn' id='insn440a' onclick='togglebreakpoint(this.id)'>
+<pre>440a:  35d0 085a      bis	#0x5a08, r5</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>440e &lt;__do_copy_data&gt;</pre>
+</div>
+<div class='insn' id='insn440e' onclick='togglebreakpoint(this.id)'>
+<pre>440e:  3f40 7c00      mov	#0x7c, r15</pre>
+</div>
+<div class='insn' id='insn4412' onclick='togglebreakpoint(this.id)'>
+<pre>4412:  0f93           tst	r15</pre>
+</div>
+<div class='insn' id='insn4414' onclick='togglebreakpoint(this.id)'>
+<pre>4414:  0724           jz	#0x4424 &lt;__do_clear_bss+0x0&gt;</pre>
+</div>
+<div class='insn' id='insn4416' onclick='togglebreakpoint(this.id)'>
+<pre>4416:  8245 5c01      mov	r5, &amp;0x015c</pre>
+</div>
+<div class='insn' id='insn441a' onclick='togglebreakpoint(this.id)'>
+<pre>441a:  2f83           decd	r15</pre>
+</div>
+<div class='insn' id='insn441c' onclick='togglebreakpoint(this.id)'>
+<pre>441c:  9f4f 3845 0024 mov	0x4538(r15), 0x2400(r15)</pre>
+</div>
+<div class='insn' id='insn4422' onclick='togglebreakpoint(this.id)'>
+<pre>4422:  f923           jnz	#0x4416 &lt;__do_copy_data+0x8&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4424 &lt;__do_clear_bss&gt;</pre>
+</div>
+<div class='insn' id='insn4424' onclick='togglebreakpoint(this.id)'>
+<pre>4424:  3f40 0001      mov	#0x100, r15</pre>
+</div>
+<div class='insn' id='insn4428' onclick='togglebreakpoint(this.id)'>
+<pre>4428:  0f93           tst	r15</pre>
+</div>
+<div class='insn' id='insn442a' onclick='togglebreakpoint(this.id)'>
+<pre>442a:  0624           jz	#0x4438 &lt;main+0x0&gt;</pre>
+</div>
+<div class='insn' id='insn442c' onclick='togglebreakpoint(this.id)'>
+<pre>442c:  8245 5c01      mov	r5, &amp;0x015c</pre>
+</div>
+<div class='insn' id='insn4430' onclick='togglebreakpoint(this.id)'>
+<pre>4430:  1f83           dec	r15</pre>
+</div>
+<div class='insn' id='insn4432' onclick='togglebreakpoint(this.id)'>
+<pre>4432:  cf43 7c24      mov.b	#0x0, 0x247c(r15)</pre>
+</div>
+<div class='insn' id='insn4436' onclick='togglebreakpoint(this.id)'>
+<pre>4436:  fa23           jnz	#0x442c &lt;__do_clear_bss+0x8&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4438 &lt;main&gt;</pre>
+</div>
+<div class='insn' id='insn4438' onclick='togglebreakpoint(this.id)'>
+<pre>4438:  3e40 2045      mov	#0x4520, r14</pre>
+</div>
+<div class='insn' id='insn443c' onclick='togglebreakpoint(this.id)'>
+<pre>443c:  0f4e           mov	r14, r15</pre>
+</div>
+<div class='insn' id='insn443e' onclick='togglebreakpoint(this.id)'>
+<pre>443e:  3e40 f800      mov	#0xf8, r14</pre>
+</div>
+<div class='insn' id='insn4442' onclick='togglebreakpoint(this.id)'>
+<pre>4442:  3f40 0024      mov	#0x2400, r15</pre>
+</div>
+<div class='insn' id='insn4446' onclick='togglebreakpoint(this.id)'>
+<pre>4446:  b012 8644      call	#0x4486 &lt;enc&gt;</pre>
+</div>
+<div class='insn' id='insn444a' onclick='togglebreakpoint(this.id)'>
+<pre>444a:  b012 0024      call	#0x2400</pre>
+</div>
+<div class='insn' id='insn444e' onclick='togglebreakpoint(this.id)'>
+<pre>444e:  0f43           clr	r15</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4450 &lt;__stop_progExec__&gt;</pre>
+</div>
+<div class='insn' id='insn4450' onclick='togglebreakpoint(this.id)'>
+<pre>4450:  32d0 f000      bis	#0xf0, sr</pre>
+</div>
+<div class='insn' id='insn4454' onclick='togglebreakpoint(this.id)'>
+<pre>4454:  fd3f           jmp	#0x4450 &lt;__stop_progExec__+0x0&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4456 &lt;__ctors_end&gt;</pre>
+</div>
+<div class='insn' id='insn4456' onclick='togglebreakpoint(this.id)'>
+<pre>4456:  3040 3645      br	#0x4536 &lt;_unexpected_&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>445a &lt;INT&gt;</pre>
+</div>
+<div class='insn' id='insn445a' onclick='togglebreakpoint(this.id)'>
+<pre>445a:  1e41 0200      mov	0x2(sp), r14</pre>
+</div>
+<div class='insn' id='insn445e' onclick='togglebreakpoint(this.id)'>
+<pre>445e:  0212           push	sr</pre>
+</div>
+<div class='insn' id='insn4460' onclick='togglebreakpoint(this.id)'>
+<pre>4460:  0f4e           mov	r14, r15</pre>
+</div>
+<div class='insn' id='insn4462' onclick='togglebreakpoint(this.id)'>
+<pre>4462:  8f10           swpb	r15</pre>
+</div>
+<div class='insn' id='insn4464' onclick='togglebreakpoint(this.id)'>
+<pre>4464:  024f           mov	r15, sr</pre>
+</div>
+<div class='insn' id='insn4466' onclick='togglebreakpoint(this.id)'>
+<pre>4466:  32d0 0080      bis	#0x8000, sr</pre>
+</div>
+<div class='insn' id='insn446a' onclick='togglebreakpoint(this.id)'>
+<pre>446a:  b012 1000      call	#0x10</pre>
+</div>
+<div class='insn' id='insn446e' onclick='togglebreakpoint(this.id)'>
+<pre>446e:  3241           pop	sr</pre>
+</div>
+<div class='insn' id='insn4470' onclick='togglebreakpoint(this.id)'>
+<pre>4470:  3041           ret</pre>
+</div>
+<div class='insn' id='insn4472' onclick='togglebreakpoint(this.id)'>
+<pre>4472:  5468 6973      addc.b	0x7369(r8), r4</pre>
+</div>
+<div class='insn' id='insn4476' onclick='togglebreakpoint(this.id)'>
+<pre>4476:  4973           sbc.b	r9</pre>
+</div>
+<div class='insn' id='insn4478' onclick='togglebreakpoint(this.id)'>
+<pre>4478:  5365           .word	0x6553</pre>
+</div>
+<div class='insn' id='insn447a' onclick='togglebreakpoint(this.id)'>
+<pre>447a:  6375           .word	0x7563</pre>
+</div>
+<div class='insn' id='insn447c' onclick='togglebreakpoint(this.id)'>
+<pre>447c:  7265           addc.b	@r5+, sr</pre>
+</div>
+<div class='insn' id='insn447e' onclick='togglebreakpoint(this.id)'>
+<pre>447e:  5269 6768      addc.b	0x6867(r9), sr</pre>
+</div>
+<div class='insn' id='insn4482' onclick='togglebreakpoint(this.id)'>
+<pre>4482:  743f           jmp	#0x436c &lt;__none__+0x436c&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>...</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4486 &lt;enc&gt;</pre>
+</div>
+<div class='insn' id='insn4486' onclick='togglebreakpoint(this.id)'>
+<pre>4486:  0b12           push	r11</pre>
+</div>
+<div class='insn' id='insn4488' onclick='togglebreakpoint(this.id)'>
+<pre>4488:  0a12           push	r10</pre>
+</div>
+<div class='insn' id='insn448a' onclick='togglebreakpoint(this.id)'>
+<pre>448a:  0912           push	r9</pre>
+</div>
+<div class='insn' id='insn448c' onclick='togglebreakpoint(this.id)'>
+<pre>448c:  0812           push	r8</pre>
+</div>
+<div class='insn' id='insn448e' onclick='togglebreakpoint(this.id)'>
+<pre>448e:  0d43           clr	r13</pre>
+</div>
+<div class='insn' id='insn4490' onclick='togglebreakpoint(this.id)'>
+<pre>4490:  cd4d 7c24      mov.b	r13, 0x247c(r13)</pre>
+</div>
+<div class='insn' id='insn4494' onclick='togglebreakpoint(this.id)'>
+<pre>4494:  1d53           inc	r13</pre>
+</div>
+<div class='insn' id='insn4496' onclick='togglebreakpoint(this.id)'>
+<pre>4496:  3d90 0001      cmp	#0x100, r13</pre>
+</div>
+<div class='insn' id='insn449a' onclick='togglebreakpoint(this.id)'>
+<pre>449a:  fa23           jne	#0x4490 &lt;enc+0xa&gt;</pre>
+</div>
+<div class='insn' id='insn449c' onclick='togglebreakpoint(this.id)'>
+<pre>449c:  3c40 7c24      mov	#0x247c, r12</pre>
+</div>
+<div class='insn' id='insn44a0' onclick='togglebreakpoint(this.id)'>
+<pre>44a0:  0d43           clr	r13</pre>
+</div>
+<div class='insn' id='insn44a2' onclick='togglebreakpoint(this.id)'>
+<pre>44a2:  0b4d           mov	r13, r11</pre>
+</div>
+<div class='insn' id='insn44a4' onclick='togglebreakpoint(this.id)'>
+<pre>44a4:  684c           mov.b	@r12, r8</pre>
+</div>
+<div class='insn' id='insn44a6' onclick='togglebreakpoint(this.id)'>
+<pre>44a6:  4a48           mov.b	r8, r10</pre>
+</div>
+<div class='insn' id='insn44a8' onclick='togglebreakpoint(this.id)'>
+<pre>44a8:  0d5a           add	r10, r13</pre>
+</div>
+<div class='insn' id='insn44aa' onclick='togglebreakpoint(this.id)'>
+<pre>44aa:  0a4b           mov	r11, r10</pre>
+</div>
+<div class='insn' id='insn44ac' onclick='togglebreakpoint(this.id)'>
+<pre>44ac:  3af0 0f00      and	#0xf, r10</pre>
+</div>
+<div class='insn' id='insn44b0' onclick='togglebreakpoint(this.id)'>
+<pre>44b0:  5a4a 7244      mov.b	0x4472(r10), r10</pre>
+</div>
+<div class='insn' id='insn44b4' onclick='togglebreakpoint(this.id)'>
+<pre>44b4:  8a11           sxt	r10</pre>
+</div>
+<div class='insn' id='insn44b6' onclick='togglebreakpoint(this.id)'>
+<pre>44b6:  0d5a           add	r10, r13</pre>
+</div>
+<div class='insn' id='insn44b8' onclick='togglebreakpoint(this.id)'>
+<pre>44b8:  3df0 ff00      and	#0xff, r13</pre>
+</div>
+<div class='insn' id='insn44bc' onclick='togglebreakpoint(this.id)'>
+<pre>44bc:  0a4d           mov	r13, r10</pre>
+</div>
+<div class='insn' id='insn44be' onclick='togglebreakpoint(this.id)'>
+<pre>44be:  3a50 7c24      add	#0x247c, r10</pre>
+</div>
+<div class='insn' id='insn44c2' onclick='togglebreakpoint(this.id)'>
+<pre>44c2:  694a           mov.b	@r10, r9</pre>
+</div>
+<div class='insn' id='insn44c4' onclick='togglebreakpoint(this.id)'>
+<pre>44c4:  ca48 0000      mov.b	r8, 0x0(r10)</pre>
+</div>
+<div class='insn' id='insn44c8' onclick='togglebreakpoint(this.id)'>
+<pre>44c8:  cc49 0000      mov.b	r9, 0x0(r12)</pre>
+</div>
+<div class='insn' id='insn44cc' onclick='togglebreakpoint(this.id)'>
+<pre>44cc:  1b53           inc	r11</pre>
+</div>
+<div class='insn' id='insn44ce' onclick='togglebreakpoint(this.id)'>
+<pre>44ce:  1c53           inc	r12</pre>
+</div>
+<div class='insn' id='insn44d0' onclick='togglebreakpoint(this.id)'>
+<pre>44d0:  3b90 0001      cmp	#0x100, r11</pre>
+</div>
+<div class='insn' id='insn44d4' onclick='togglebreakpoint(this.id)'>
+<pre>44d4:  e723           jne	#0x44a4 &lt;enc+0x1e&gt;</pre>
+</div>
+<div class='insn' id='insn44d6' onclick='togglebreakpoint(this.id)'>
+<pre>44d6:  0b43           clr	r11</pre>
+</div>
+<div class='insn' id='insn44d8' onclick='togglebreakpoint(this.id)'>
+<pre>44d8:  0c4b           mov	r11, r12</pre>
+</div>
+<div class='insn' id='insn44da' onclick='togglebreakpoint(this.id)'>
+<pre>44da:  183c           jmp	#0x450c &lt;enc+0x86&gt;</pre>
+</div>
+<div class='insn' id='insn44dc' onclick='togglebreakpoint(this.id)'>
+<pre>44dc:  1c53           inc	r12</pre>
+</div>
+<div class='insn' id='insn44de' onclick='togglebreakpoint(this.id)'>
+<pre>44de:  3cf0 ff00      and	#0xff, r12</pre>
+</div>
+<div class='insn' id='insn44e2' onclick='togglebreakpoint(this.id)'>
+<pre>44e2:  0a4c           mov	r12, r10</pre>
+</div>
+<div class='insn' id='insn44e4' onclick='togglebreakpoint(this.id)'>
+<pre>44e4:  3a50 7c24      add	#0x247c, r10</pre>
+</div>
+<div class='insn' id='insn44e8' onclick='togglebreakpoint(this.id)'>
+<pre>44e8:  684a           mov.b	@r10, r8</pre>
+</div>
+<div class='insn' id='insn44ea' onclick='togglebreakpoint(this.id)'>
+<pre>44ea:  4b58           add.b	r8, r11</pre>
+</div>
+<div class='insn' id='insn44ec' onclick='togglebreakpoint(this.id)'>
+<pre>44ec:  4b4b           mov.b	r11, r11</pre>
+</div>
+<div class='insn' id='insn44ee' onclick='togglebreakpoint(this.id)'>
+<pre>44ee:  0d4b           mov	r11, r13</pre>
+</div>
+<div class='insn' id='insn44f0' onclick='togglebreakpoint(this.id)'>
+<pre>44f0:  3d50 7c24      add	#0x247c, r13</pre>
+</div>
+<div class='insn' id='insn44f4' onclick='togglebreakpoint(this.id)'>
+<pre>44f4:  694d           mov.b	@r13, r9</pre>
+</div>
+<div class='insn' id='insn44f6' onclick='togglebreakpoint(this.id)'>
+<pre>44f6:  cd48 0000      mov.b	r8, 0x0(r13)</pre>
+</div>
+<div class='insn' id='insn44fa' onclick='togglebreakpoint(this.id)'>
+<pre>44fa:  ca49 0000      mov.b	r9, 0x0(r10)</pre>
+</div>
+<div class='insn' id='insn44fe' onclick='togglebreakpoint(this.id)'>
+<pre>44fe:  695d           add.b	@r13, r9</pre>
+</div>
+<div class='insn' id='insn4500' onclick='togglebreakpoint(this.id)'>
+<pre>4500:  4d49           mov.b	r9, r13</pre>
+</div>
+<div class='insn' id='insn4502' onclick='togglebreakpoint(this.id)'>
+<pre>4502:  dfed 7c24 0000 xor.b	0x247c(r13), 0x0(r15)</pre>
+</div>
+<div class='insn' id='insn4508' onclick='togglebreakpoint(this.id)'>
+<pre>4508:  1f53           inc	r15</pre>
+</div>
+<div class='insn' id='insn450a' onclick='togglebreakpoint(this.id)'>
+<pre>450a:  3e53           add	#-0x1, r14</pre>
+</div>
+<div class='insn' id='insn450c' onclick='togglebreakpoint(this.id)'>
+<pre>450c:  0e93           tst	r14</pre>
+</div>
+<div class='insn' id='insn450e' onclick='togglebreakpoint(this.id)'>
+<pre>450e:  e623           jnz	#0x44dc &lt;enc+0x56&gt;</pre>
+</div>
+<div class='insn' id='insn4510' onclick='togglebreakpoint(this.id)'>
+<pre>4510:  3841           pop	r8</pre>
+</div>
+<div class='insn' id='insn4512' onclick='togglebreakpoint(this.id)'>
+<pre>4512:  3941           pop	r9</pre>
+</div>
+<div class='insn' id='insn4514' onclick='togglebreakpoint(this.id)'>
+<pre>4514:  3a41           pop	r10</pre>
+</div>
+<div class='insn' id='insn4516' onclick='togglebreakpoint(this.id)'>
+<pre>4516:  3b41           pop	r11</pre>
+</div>
+<div class='insn' id='insn4518' onclick='togglebreakpoint(this.id)'>
+<pre>4518:  3041           ret</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>451a &lt;do_nothing&gt;</pre>
+</div>
+<div class='insn' id='insn451a' onclick='togglebreakpoint(this.id)'>
+<pre>451a:  0e4f           mov	r15, r14</pre>
+</div>
+<div class='insn' id='insn451c' onclick='togglebreakpoint(this.id)'>
+<pre>451c:  0f4e           mov	r14, r15</pre>
+</div>
+<div class='insn' id='insn451e' onclick='togglebreakpoint(this.id)'>
+<pre>451e:  3041           ret</pre>
+</div>
+<div class='insn' id='insn4520' onclick='togglebreakpoint(this.id)'>
+<pre>4520:  7768           addc.b	@r8+, r7</pre>
+</div>
+<div class='insn' id='insn4522' onclick='togglebreakpoint(this.id)'>
+<pre>4522:  6174           subc.b	@r4, sp</pre>
+</div>
+<div class='insn' id='insn4524' onclick='togglebreakpoint(this.id)'>
+<pre>4524:  2773           subc	#0x2, r7</pre>
+</div>
+<div class='insn' id='insn4526' onclick='togglebreakpoint(this.id)'>
+<pre>4526:  2074           subc	@r4, pc</pre>
+</div>
+<div class='insn' id='insn4528' onclick='togglebreakpoint(this.id)'>
+<pre>4528:  6865           addc.b	@r5, r8</pre>
+</div>
+<div class='insn' id='insn452a' onclick='togglebreakpoint(this.id)'>
+<pre>452a:  2070           subc	@pc, pc</pre>
+</div>
+<div class='insn' id='insn452c' onclick='togglebreakpoint(this.id)'>
+<pre>452c:  6173           subc.b	#0x2, sp</pre>
+</div>
+<div class='insn' id='insn452e' onclick='togglebreakpoint(this.id)'>
+<pre>452e:  7377           .word	0x7773</pre>
+</div>
+<div class='insn' id='insn4530' onclick='togglebreakpoint(this.id)'>
+<pre>4530:  6f72           subc.b	#0x4, r15</pre>
+</div>
+<div class='insn' id='insn4532' onclick='togglebreakpoint(this.id)'>
+<pre>4532:  643f           jmp	#0x43fc &lt;__none__+0x43fc&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>...</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4536 &lt;_unexpected_&gt;</pre>
+</div>
+<div class='insn' id='insn4536' onclick='togglebreakpoint(this.id)'>
+<pre>4536:  0013           reti	pc</pre>
+</div></code>
+</div>
+<div class='gold-box'>
+<h2 class='h2hide'>Live Memory Dump</h2>
+<code class='memorybox' id='memorybox'><div class='watchline' id='r00line' style='display: none'></div>
+<div class='watchline' id='r01line' style='display: none'></div>
+<div class='watchline' id='r04line' style='display: none'></div>
+<div class='watchline' id='r05line' style='display: none'></div>
+<div class='watchline' id='r06line' style='display: none'></div>
+<div class='watchline' id='r07line' style='display: none'></div>
+<div class='watchline' id='r08line' style='display: none'></div>
+<div class='watchline' id='r09line' style='display: none'></div>
+<div class='watchline' id='r10line' style='display: none'></div>
+<div class='watchline' id='r11line' style='display: none'></div>
+<div class='watchline' id='r12line' style='display: none'></div>
+<div class='watchline' id='r13line' style='display: none'></div>
+<div class='watchline' id='r14line' style='display: none'></div>
+<div class='watchline' id='r15line' style='display: none'></div>
+<span class='watchbox' id='r00name' style='display: none'>pc</span>
+<span class='watchbox' id='r01name' style='display: none'>sp</span>
+<span class='watchbox' id='r04name' style='display: none'>r04</span>
+<span class='watchbox' id='r05name' style='display: none'>r05</span>
+<span class='watchbox' id='r06name' style='display: none'>r06</span>
+<span class='watchbox' id='r07name' style='display: none'>r07</span>
+<span class='watchbox' id='r08name' style='display: none'>r08</span>
+<span class='watchbox' id='r09name' style='display: none'>r09</span>
+<span class='watchbox' id='r10name' style='display: none'>r10</span>
+<span class='watchbox' id='r11name' style='display: none'>r11</span>
+<span class='watchbox' id='r12name' style='display: none'>r12</span>
+<span class='watchbox' id='r13name' style='display: none'>r13</span>
+<span class='watchbox' id='r14name' style='display: none'>r14</span>
+<span class='watchbox' id='r15name' style='display: none'>r15</span></code>
+</div>
+<div style='clear: both'></div>
+</div>
+<a class='button orange' href='#hideheaders' id='hideheaders' onclick='hideheaders()'>Toggle minimal mode</a>
+</div>
+</main>
+<div id='gray_bg' style='display: none'>
+<div id='real_bg'></div>
+<div class='myalert_outer' id='io_outer' style='display: none'>
+<div class='myalert_inner' id='io_inner'>
+<div class='gold-box'>
+<h2>IO interrupt triggered</h2>
+<div class='spaceborder'>
+<br>
+The CPU has requested user input from the console. Below is the output
+displayed on the console.
+<div id='io_output_box_wrap'>
+<div id='io_output_box'>
+<pre class='wrap'>&nbsp;</pre>
+</div>
+</div>
+Enter input below:
+<div>
+<input id='io_check_box' type='checkbox'>
+<label for='io_check_box'>
+Check here if entering hex encoded input.
+</label>
+</div>
+<div>
+<input autocomplete='false' id='io_input_box' spellcheck='false'>
+<input class='button orange' onclick='cpu.io_response()' type='button' value='send'>
+<input class='button grey' id='io_wait' onclick='cpu.io_wait()' type='button' value='wait'>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='myalert_outer' id='youwin_outer' style='display: none'>
+<div class='myalert_inner' id='youwin_inner'>
+<div class='gold-box'>
+<h2>Door Unlocked</h2>
+<div class='spaceborder'>
+<center id='youwintext'>.</center>
+<center>
+<input class='button orange' id='nextlevelbutton' type='button' value="let's go!">
+</center>
+</div>
+</div>
+</div>
+</div>
+<div class='myalert_outer' id='nowin_outer' style='display: none'>
+<div class='myalert_inner' id='nowin_inner'>
+<div class='gold-box'>
+<h2>Not Accepted</h2>
+<div class='spaceborder'>
+The lock did not accept your input. Try again.
+<center>
+<input class='button orange' onclick='endnowin()' type='button' value='okay'>
+</center>
+</div>
+</div>
+</div>
+</div>
+<div class='myalert_outer' id='info_outer' style='display: none'>
+<div class='myalert_inner' id='info_inner'>
+<div class='gold-box'>
+<h2>Manual</h2>
+<div class='spaceborder'>
+<pre id='info' style='padding: 10px'></pre>
+<center>
+<input class='button orange' onclick='donemanual()' type='button' value='okay'>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer id='footer'>
+<div class='wrap'>
+<div class='copy align_center'>© Matasano Security and Square, Inc 2014</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+  String.prototype.last = function(n) {
+    if (n > this.length)
+      return this;
+    else {
+      return this.substring(this.length, this.length - n);
+    }
+  };
+  
+  var csrf_param = $("meta[name=csrf-param]").attr('content');
+  var csrf_value = $("meta[name=csrf-token]").attr('content');
+  
+  $(function() { 
+    $("form.real").each(function() {
+      $("<input>").attr("type", "HIDDEN").
+        attr("name", csrf_param).
+        val(csrf_value).
+        appendTo($(this));
+    });
+  
+    $(".close").click(function() {
+      console.log("whee", this, $(this).closest(".alert"));
+      $(this).closest(".alert").remove()
+    });
+  });
+  
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+                             $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+  $(function() {
+   function moveFooter() {
+     var offset = $(window).height() - $('body').height();
+     if (offset > 0) {
+       $('footer').css('position', 'relative').css('top', offset + 'px');
+     } else {
+       $('footer').css('position', 'static');
+     }
+   }
+   $(window).resize(moveFooter);
+   $(window).load(moveFooter);
+   moveFooter();
+  });
+</script>
+
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/is_alive HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "68934a3e9455fa72420237eb05902327"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 453bba744858075480695a82b2ee11d6
+X-Runtime: 0.002020
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 5
+
+false
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/whoami HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "cb09afcce76925f132e326b76b6db67d"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 04b842e25cbad391910145bed71f20f1
+X-Runtime: 0.002577
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 39
+
+{"name":"Userlame","level":"Reykjavik"}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/favicon.ico HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept: */*
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: image/x-icon
+Content-Length: 0
+Last-Modified: Wed, 16 Sep 2015 16:31:30 GMT
+Connection: keep-alive
+ETag: "55f99962-0"
+Strict-Transport-Security: max-age=3456000
+Accept-Ranges: bytes
+
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/get_manual HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "3a639a97ecd776dec613f3d0f2a954b4"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 20daf1b3f927c8a6c2942ea5ae3baf57
+X-Runtime: 0.004280
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 1894
+
+{"manual":"Lockitall                                            LOCKIT PRO r a.03\n______________________________________________________________________\n\n              User Manual: Lockitall LockIT Pro, rev a.03              \n______________________________________________________________________\n\n\nOVERVIEW\n\n    - Lockitall developers  have implemented  military-grade on-device\n      encryption to keep the password secure.\n    - This lock is not attached to any hardware security module.\n\n\nDETAILS\n\n    The LockIT Pro a.03  is the first of a new series  of locks. It is\n    controlled by a  MSP430 microcontroller, and is  the most advanced\n    MCU-controlled lock available on the  market. The MSP430 is a very\n    low-power device which allows the LockIT  Pro to run in almost any\n    environment.\n\n    The  LockIT  Pro   contains  a  Bluetooth  chip   allowing  it  to\n    communiciate with the  LockIT Pro App, allowing the  LockIT Pro to\n    be inaccessable from the exterior of the building.\n\n    There is  no default password  on the LockIT  Pro---upon receiving\n    the LockIT Pro, a new password must be set by connecting it to the\n    LockIT Pro  App and  entering a password  when prompted,  and then\n    restarting the LockIT Pro using the red button on the back.\n    \n    This is Hardware  Version A.  It contains  the Bluetooth connector\n    built in, and one available port  to which the LockIT Pro Deadbolt\n    should be connected.\n\n    This is Software Revision 02. This release contains military-grade\n    encryption so users can be confident that the passwords they enter\n    can not be read from memory.   We apologize for making it too easy\n    for the password to be recovered on prior versions.  The engineers\n    responsible have been sacked.\n\n    \n\n\n(c) 2013 LOCKITALL                                            Page 1/1"}
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/load HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "c619f8230353430f0932d1deac414060"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: ad3e9e648a37894aecc7ad2137b285a7
+X-Runtime: 0.005493
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 52
+
+{"data":{"isdebug":"false","reason":"","state":"0"}}
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/reset/debug HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "6bdf9f89a41b66f47e0ba176f1625cfa"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 13452ff77ee42888fa5659bb4e05d4a7
+X-Runtime: 0.005756
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 25
+
+{"data":{"success":true}}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/cpu/snapshot?x=1457050242580 HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "90be30fcf98c1ea226f0e932682bf949"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 045f4bff35af0e81a372302d9868b8cc
+X-Runtime: 0.003419
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 1530
+
+{"advanced":false,"advanced_steps":0,"new_output":"","state":"0","reason":"","isdebug":"true","regs":[17408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"insn":"3140 0044      mov\t#0x4400, sp","updatememory":"44200024f9233f4000010f93062482455c014440f8003f400024b0128644b01200240f4344a00d430b4d684c4a480d5a0a4b3af00f004560cb6fb8e9333c5aa15cee906bd1aaa1c345a0abadab3f8cfa754d8ff0b0836b3eb3c744301f83cf437c24fa233e4020450f4e3e40454038642bc6427762b8c3cad965a40ac1a34470304154686973497353656375726552694510384139413a413b4130410e4f0f4e30414590caa2a30df344815e3e10e7652bc8283745306f72643f000000134c851bc580dfe9bfffd05644564456445644564456445644564444c07c24694aca480000cc4900001b531c5344107c000f93072482455c012f839f4f384544003140004415425c0175f335d0085a3f40ffe056445644564456445644564456445644452077686174277320746865207061737377ff805644564456445644564456445644564444806768743f00000b120a12091208120d43000000004400000000000000000000000000ffc05644564456445644564456445644564444f03d507c24694dcd480000ca490000695d445032d0f000fd3f304036451e4102000212ff9056445644564456445644564456445644ffa05644564456445644564456445644564444e0ff000a4c3a507c24684a4b584b4b0d4b45b0aefeb40900000000000000000000000045004d49dfed7c2400001f533e530e93e62344d03b900001e7230b430c4b183c1c533cf0fff0564456445644564456445644564400444570a9868d1408a5a22cbaa51957192dabe144600f4e8f10024f32d00080b012100032414550bbd1a6eab3eb180f78afea7e5c8ec695ffb056445644564456445644564456445644458066b969764a08e95cd919806907a5ef014490cd4d7c241d533d900001fa233c407c2444b05a4a72448a110d5a3df0ff000a4d3a50"}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/cpu/dbg/events?x=1457050242580 HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: AQ/1CKeePAUe9R3CITLTlV0zOZff+u17RrpbXQsgsm8=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTZjNjIxMzY2NThjN2FhZTIwMzM4OGUwOWZlMTg1N2M2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUFRLzFDS2VlUEFVZTlSM0NJVExUbFYwek9aZmYrdTE3UnJwYlhRc2dzbTg9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--d8cb77aa410f086aae80d8b87d14f2c29c347c87
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Mar 2016 00:10:35 GMT
+Content-Type: text/javascript; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "c26be89d9cb9cf3b4f242a86d822c747"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: b9a5871d1b6f6e7481b936851d20a344
+X-Runtime: 0.003037
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 37
+
+{"data":{"events":{},"success":true}}
+
+------------------------------------------------------------------
+

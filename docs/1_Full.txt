@@ -1,0 +1,1974 @@
+GET https://www.microcorruption.com/ HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:55:27 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Location: http://www.microcorruption.com/login
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+Set-Cookie: _cpuctf_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTMxYTgwMmYzMTYzYTQ0ODNhZWRiNTQyODdlOWE3MmJiBjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEY%3D--f7ea3766576709576a5712ae29d34465025ce297; path=/; HttpOnly
+X-Request-Id: 4681392742a7b45f53f510aaba2aecc5
+X-Runtime: 0.001350
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 102
+
+<html><body>You are being <a href="http://www.microcorruption.com/login">redirected</a>.</body></html>
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/login HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTMxYTgwMmYzMTYzYTQ0ODNhZWRiNTQyODdlOWE3MmJiBjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEY%3D--f7ea3766576709576a5712ae29d34465025ce297
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:55:27 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "9984466e30cd106ae79fe29a3bdf00c7"
+Cache-Control: must-revalidate, private, max-age=0
+Set-Cookie: _cpuctf_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTMxYTgwMmYzMTYzYTQ0ODNhZWRiNTQyODdlOWE3MmJiBjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEZJIhBfY3NyZl90b2tlbgY7AEZJIjFZMGtLVEQ5N0tBK3RKK0RvMkV0UEFrNDQ0UHVXSERORTlnL0FJTHg3bXFNPQY7AEY%3D--67c1f79269355d2a621076b51f326b6a0e204652; path=/; HttpOnly
+X-Request-Id: df046eb1ceca999a7b5dc36067c8367e
+X-Runtime: 0.003089
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 4960
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ltie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]> ><! <![endif]-->
+<html lang='en'>
+<!-- <![endif] -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='' name='keywords'>
+<meta content='' name='description'>
+<meta content='' name='author'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="Y0kKTD97KA+tJ+Do2EtPAk444PuWHDNE9g/AILx7mqM=" name="csrf-token" />
+<script src="/assets/application-a237f6ba975152067b88e2b0aa2eb4c5.js" type="text/javascript"></script>
+<link href="/assets/application-974b835d4cab4eed5e6134e3f82960f8.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Embedded Security CTF</title>
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+<header id='header'>
+<div class='wrap clearfix'>
+<a class='logo left' href='http://matasano.com/careers'>
+<img height='30' src='/assets/mtsologo.png' width='30'>
+</a>
+<a class='logo left' href='//squareup.com/' style='position: relative; top: 3px;'>
+<img height='22' src='/assets/squarelogo.png' width='22'>
+</a>
+<nav class='right' id='nav'>
+<ul>
+<li>
+<a href='/'>Main</a>
+</li>
+<li>
+<a href='/hall_of_fame'>Hall of Fame</a>
+</li>
+<li>
+<a href='/about'>About</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id='flashes'>
+<div class='wrap clearfix'>
+</div>
+</div>
+<style>
+  p { margin: 0.5em 0; }
+</style>
+<main id='main_content'>
+<div class='wrap'>
+<header>
+<h2>Embedded Security CTF</h2>
+</header>
+<section>
+<table class='green_table'>
+<tr>
+<td>
+<p>Scattered throughout the world in locked warehouses are briefcases filled with Cy Yombinator bearer bonds that could be worth billions comma billions of dollars. You will help steal the briefcases.</p>
+<p>Cy Yombinator has cleverly protected the warehouses with Lockitall electronic lock devices. Lockitall locks are unlockable with an app. We've positioned operatives near each warehouse; each is waiting for you to successfully unlock the warehouse by tricking out the locks.</p>
+<p>The Lockitall devices work by accepting Bluetooth connections from the Lockitall LockIT Pro app. We've done the hard work for you: we spent $15,000 on a development kit that includes remote controlled locks for you to practice on, and reverse engineered enough of it to build a primitive debugger.</p>
+<p>Using the debugger, you'll be able to single step the lock code, set breakpoints, and examine memory on your own test instance of the lock. You'll use the debugger to find an input that unlocks the test lock, and then replay it to a real lock.</p>
+<p>Should be a milk run. Good luck. We'll see you on a beach in St Tropez once you're done.</p>
+</td>
+</tr>
+</table>
+<form action='/login' class='real form-inline' method='POST'>
+<table class='orange_table form'>
+<tr>
+<td>Username</td>
+<td>
+<input class='input-medium' name='name' placeholder='Username' type='TEXT'>
+</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>
+<input class='input-medium' name='password' placeholder='Password' type='PASSWORD'>
+</td>
+<td>
+<button class='button orange' type='SUBMIT'>Log in</button>
+</td>
+<td>
+<a href='https://matasano.wufoo.com/forms/embedded-systems-memory-corruption-ctf/'>sign up</a>
+(or
+<a href='/forgot_password'>forgot your password</a>
+)
+</td>
+</tr>
+</table>
+</form>
+</section>
+</div>
+</main>
+
+<footer id='footer'>
+<div class='wrap'>
+<div class='copy align_center'>© Matasano Security and Square, Inc 2014</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+  String.prototype.last = function(n) {
+    if (n > this.length)
+      return this;
+    else {
+      return this.substring(this.length, this.length - n);
+    }
+  };
+  
+  var csrf_param = $("meta[name=csrf-param]").attr('content');
+  var csrf_value = $("meta[name=csrf-token]").attr('content');
+  
+  $(function() { 
+    $("form.real").each(function() {
+      $("<input>").attr("type", "HIDDEN").
+        attr("name", csrf_param).
+        val(csrf_value).
+        appendTo($(this));
+    });
+  
+    $(".close").click(function() {
+      console.log("whee", this, $(this).closest(".alert"));
+      $(this).closest(".alert").remove()
+    });
+  });
+  
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+                             $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+  $(function() {
+   function moveFooter() {
+     var offset = $(window).height() - $('body').height();
+     if (offset > 0) {
+       $('footer').css('position', 'relative').css('top', offset + 'px');
+     } else {
+       $('footer').css('position', 'static');
+     }
+   }
+   $(window).resize(moveFooter);
+   $(window).load(moveFooter);
+   moveFooter();
+  });
+</script>
+
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/login HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 104
+Cache-Control: no-cache, private
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: https://www.microcorruption.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: https://www.microcorruption.com/login
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTMxYTgwMmYzMTYzYTQ0ODNhZWRiNTQyODdlOWE3MmJiBjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEZJIhBfY3NyZl90b2tlbgY7AEZJIjFZMGtLVEQ5N0tBK3RKK0RvMkV0UEFrNDQ0UHVXSERORTlnL0FJTHg3bXFNPQY7AEY%3D--67c1f79269355d2a621076b51f326b6a0e204652
+
+name=userlame&password=daria2hug&authenticity_token=Y0kKTD97KA%2BtJ%2BDo2EtPAk444PuWHDNE9g%2FAILx7mqM%3D
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:02 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Location: http://www.microcorruption.com/
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+Set-Cookie: _cpuctf_session=BAh7BzoJdXNlcmkCQhhJIg9zZXNzaW9uX2lkBjoGRUZJIiU0OTliMzFlNTRiNzNkMmZmZmViYzM4ZGFkYTAxNTg1YwY7BlQ%3D--b746a2598dd8d3d11650d6f7a030d065b2432ba3; path=/; HttpOnly
+X-Request-Id: 1659aeec70ebf4aa8802467efa673686
+X-Runtime: 0.022433
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 97
+
+<html><body>You are being <a href="http://www.microcorruption.com/">redirected</a>.</body></html>
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/ HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Cache-Control: no-cache, private
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7BzoJdXNlcmkCQhhJIg9zZXNzaW9uX2lkBjoGRUZJIiU0OTliMzFlNTRiNzNkMmZmZmViYzM4ZGFkYTAxNTg1YwY7BlQ%3D--b746a2598dd8d3d11650d6f7a030d065b2432ba3
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:02 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "2a29cfadf5a21d645b56ad4f477e9e6b"
+Cache-Control: must-revalidate, private, max-age=0
+Set-Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARg%3D%3D--9b4938f81ea14a1ddbf71fa806ff6f204e066f1c; path=/; HttpOnly
+X-Request-Id: 737c24a8a0037642fe6c4070d513688c
+X-Runtime: 0.004312
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 3647
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ltie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]> ><! <![endif]-->
+<html lang='en'>
+<!-- <![endif] -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='' name='keywords'>
+<meta content='' name='description'>
+<meta content='' name='author'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=" name="csrf-token" />
+<script src="/assets/application-a237f6ba975152067b88e2b0aa2eb4c5.js" type="text/javascript"></script>
+<link href="/assets/application-974b835d4cab4eed5e6134e3f82960f8.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Embedded Security CTF</title>
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+<header id='header'>
+<div class='wrap clearfix'>
+<a class='logo left' href='http://matasano.com/careers'>
+<img height='30' src='/assets/mtsologo.png' width='30'>
+</a>
+<a class='logo left' href='//squareup.com/' style='position: relative; top: 3px;'>
+<img height='22' src='/assets/squarelogo.png' width='22'>
+</a>
+<nav class='right' id='nav'>
+<ul>
+<li>
+<a href='/'>Main</a>
+</li>
+<li>
+<a href='/profile/6210'>Profile</a>
+</li>
+<li>
+<a href='/hall_of_fame'>Hall of Fame</a>
+</li>
+<li>
+<a href='/assembler'>Assembler</a>
+</li>
+<li>
+<a href='/manual.pdf'>Lock Manual</a>
+</li>
+<li>
+<a href='/about'>About</a>
+</li>
+<li>
+<a href='/logout'>Logout</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id='flashes'>
+<div class='wrap clearfix'>
+</div>
+</div>
+<script src="/assets/map-5f97aa985abc5c09917fffbd7e16dd98.js" type="text/javascript"></script>
+<link href="/assets/map-57427d0285fbe57d08bb0ca62f2dc389.css" media="screen" rel="stylesheet" type="text/css" />
+<main id='main_content'>
+<div class='wrap'>
+<section id='mapheader'>
+<header class='page_header'>
+<h2>
+Choose Your<br>Next Level
+</h2>
+</header>
+</section>
+<section class='countries'>
+<ul></ul>
+</section>
+<section id='markers'></section>
+</div>
+</main>
+
+<footer id='footer'>
+<div class='wrap'>
+<div class='copy align_center'>© Matasano Security and Square, Inc 2014</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+  String.prototype.last = function(n) {
+    if (n > this.length)
+      return this;
+    else {
+      return this.substring(this.length, this.length - n);
+    }
+  };
+  
+  var csrf_param = $("meta[name=csrf-param]").attr('content');
+  var csrf_value = $("meta[name=csrf-token]").attr('content');
+  
+  $(function() { 
+    $("form.real").each(function() {
+      $("<input>").attr("type", "HIDDEN").
+        attr("name", csrf_param).
+        val(csrf_value).
+        appendTo($(this));
+    });
+  
+    $(".close").click(function() {
+      console.log("whee", this, $(this).closest(".alert"));
+      $(this).closest(".alert").remove()
+    });
+  });
+  
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+                             $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+  $(function() {
+   function moveFooter() {
+     var offset = $(window).height() - $('body').height();
+     if (offset > 0) {
+       $('footer').css('position', 'relative').css('top', offset + 'px');
+     } else {
+       $('footer').css('position', 'static');
+     }
+   }
+   $(window).resize(moveFooter);
+   $(window).load(moveFooter);
+   moveFooter();
+  });
+</script>
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/assets/map-5f97aa985abc5c09917fffbd7e16dd98.js HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARg%3D%3D--9b4938f81ea14a1ddbf71fa806ff6f204e066f1c
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:03 GMT
+Content-Type: application/x-javascript
+Content-Length: 1557
+Connection: keep-alive
+Expires: Thu, 02 Mar 2017 23:56:03 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+Accept-Ranges: bytes
+
+function levelchanged(e){function t(){cpu.send("/cpu/set_level",{level:e},function(){window.location="/cpu/debugger"})}cpu.send("/cpu/is_alive",{},function(e){JSON.parse(e)?confirm("Starting a level will kill any other levels you have running. Are you sure you want to do so?")&&cpu.send("/cpu/dbg/kill",{},function(){t()}):t()})}$(document).ready(function(){cpu.get("/get_levels",function(e){for(var t in e.levels){var n,i=e.levels[t],o="javascript:levelchanged('"+i.name+"')";n=1==i.done?"/assets/o.png":"/assets/x.png",function(e){$("section.countries").append($("<li>").append($("<a>").attr("href",o).text(i.name).css("color",i.done?"#00b9a0":"#ec9300").mouseover(function(){$(".marker"+e).css("background","#fff")}).mouseout(function(){$(".marker"+e).css("background","")}).prop("class","tipsyit").attr("original-title",i.name+"; "+i.rating+" points")))}(t),0!=i.top&&$("section#markers").append($("<a>").append($("<img src='"+n+"'>").css("position","absolute").css("top",i.top+"px").css("left",i.left+"px").prop("class","marker"+t).prop("class","tipsyit").attr("original-title",i.name+"; "+i.rating+" points")).attr("href",o))}return void $(".tipsyit").tipsy({fade:!0,gravity:"n"});var i,i})});var cpu={send:function(e,t,n){$.ajax({url:e,type:"POST",dataType:"json",contentType:"application/json",data:JSON.stringify({body:t})}).fail(function(){}).done(function(e){n&&n(e)})},get:function(e,t){$.ajax({url:e,type:"get",dataType:"json"}).fail(function(){console.log("Connection to server failed; GET could not be sent.")}).done(function(e){t&&t(e)})}};
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/assets/map-57427d0285fbe57d08bb0ca62f2dc389.css HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARg%3D%3D--9b4938f81ea14a1ddbf71fa806ff6f204e066f1c
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:03 GMT
+Content-Type: text/css
+Content-Length: 1074
+Connection: keep-alive
+Expires: Thu, 02 Mar 2017 23:56:03 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+Accept-Ranges: bytes
+
+#main_content{margin-top:-90px;padding:0 !important;background-image:url(/assets/map.gif);background-position:center;background-repeat:no-repeat;height:662px}#mapheader{position:absolute;top:55px;left:0}#map{height:662px}#map .page_header{border-bottom:0px !important}.countries{position:absolute;top:300px;left:0;font-weight:bold;font-size:12px;color:#1cbca4}.orange{color:#f09615}#tutorial{color:#fff}#footerinfo{height:50px;background-color:#fafafa;color:#aaadb0;padding:20px}#footerinfo a{color:#aaadb0;text-decoration:underline}#footerinfo .col{font-size:16px;font-weight:bold;line-height:2;background-color:#fafafa;width:50%;float:left;padding:20px auto}#footerinfo #submit{background-color:#fafafa;border:1px solid #aaadb0;font-size:16px;font-weight:bold;color:#aaadb0;padding:4px 5px}#footerinfo #file{font-style:italic;font-size:16px;padding:4px 0 5px;border:0px;border-bottom:1px solid #aaadb0;background-color:#fafafa;color:#aaadb0;font-weight:bold}#footerinfo #choose{background-color:#aaadb0;border:1px solid #aaadb0;font-size:14px;font-weight:bold;color:#fff}
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/get_levels HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARg%3D%3D--9b4938f81ea14a1ddbf71fa806ff6f204e066f1c
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:03 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d299007faf9d17ed8e6b88af360b8d77"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 187abc9e18bce7d4a530164b244cb6f7
+X-Runtime: 0.005222
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 1146
+
+{"levels":[{"code":"","name":"Tutorial","rating":"10","needed":[],"done":true,"ready":true,"top":"337","left":"280"},{"code":"","name":"New Orleans","rating":"10","needed":["Tutorial"],"done":true,"ready":true,"top":"386","left":"228"},{"code":"","name":"Sydney","rating":"15","needed":["New Orleans"],"done":true,"ready":true,"top":"600","left":"1010"},{"code":"","name":"Hanoi","rating":"20","needed":["Sydney"],"done":true,"ready":true,"top":"415","left":"861"},{"code":"","name":"Cusco","rating":"25","needed":["Hanoi"],"done":true,"ready":true,"top":"522","left":"285"},{"code":"","name":"Reykjavik","rating":"35","needed":["Sydney"],"done":true,"ready":true,"top":"210","left":"450"},{"code":"","name":"Whitehorse","rating":"50","needed":["Cusco"],"done":true,"ready":true,"top":"235","left":"87"},{"code":"","name":"Montevideo","rating":"50","needed":["Whitehorse"],"done":true,"ready":true,"top":"596","left":"336"},{"code":"","name":"Johannesburg","rating":"20","needed":[],"done":false,"ready":true,"top":"568","left":"616"},{"code":"","name":"Addis Ababa","rating":"50","needed":[],"done":false,"ready":true,"top":"446","left":"643"}]}
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/is_alive HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARg%3D%3D--9b4938f81ea14a1ddbf71fa806ff6f204e066f1c
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:08 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "68934a3e9455fa72420237eb05902327"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb; path=/; HttpOnly
+X-Request-Id: 0bb2ffa92e5c395a61b572cfbcee99d8
+X-Runtime: 0.004470
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 5
+
+false
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/set_level HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 30
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+{"body":{"level":"Reykjavik"}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:08 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d9f3f8a85a80554b1b701f17ef8a6578"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: bcb65d3e2606575e68377f09b48cdccc
+X-Runtime: 0.021198
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 21
+
+{"success":"success"}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/cpu/debugger HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:08 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "dd85c54d0479709de73fc875b84b8356"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 16bbbdb06a3be339b2348110cbe2b22e
+X-Runtime: 0.014835
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 24759
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ltie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]> ><! <![endif]-->
+<html lang='en'>
+<!-- <![endif] -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='' name='keywords'>
+<meta content='' name='description'>
+<meta content='' name='author'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=" name="csrf-token" />
+<script src="/assets/application-a237f6ba975152067b88e2b0aa2eb4c5.js" type="text/javascript"></script>
+<link href="/assets/application-974b835d4cab4eed5e6134e3f82960f8.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Embedded Security CTF</title>
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+<header id='header'>
+<div class='wrap clearfix'>
+<a class='logo left' href='http://matasano.com/careers'>
+<img height='30' src='/assets/mtsologo.png' width='30'>
+</a>
+<a class='logo left' href='//squareup.com/' style='position: relative; top: 3px;'>
+<img height='22' src='/assets/squarelogo.png' width='22'>
+</a>
+<nav class='right' id='nav'>
+<ul>
+<li>
+<a href='/'>Main</a>
+</li>
+<li>
+<a href='/profile/6210'>Profile</a>
+</li>
+<li>
+<a href='/hall_of_fame'>Hall of Fame</a>
+</li>
+<li>
+<a href='/assembler'>Assembler</a>
+</li>
+<li>
+<a href='/manual.pdf'>Lock Manual</a>
+</li>
+<li>
+<a href='/about'>About</a>
+</li>
+<li>
+<a href='/logout'>Logout</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id='flashes'>
+<div class='wrap clearfix'>
+</div>
+</div>
+<script src="/assets/pagebody-df45cb0631518620834e9bb833418041.js" type="text/javascript"></script>
+<script src="/assets/guide-2cf611b7ffd734bbf045f1ea8c23da13.js" type="text/javascript"></script>
+<link href="/assets/debugger-2069d7cd3ced1a62004841545ae8342d.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/assets/guideline-824f2f93d9fb439801534265711ae479.css" media="screen" rel="stylesheet" type="text/css" />
+<main id='main_content'>
+<div class='wrap'>
+<div class='column-2'>
+<div class='gold-box smaller'>
+<h2 class='h2hide'>Register State</h2>
+<code id='registers'><pre>pc  0000  sp  0000  sr  0000  cg  0000</pre>
+<pre>r04 0000  r05 0000  r06 0000  r07 0000</pre>
+<pre>r08 0000  r09 0000  r10 0000  r11 0000</pre>
+<pre>r12 0000  r13 0000  r14 0000  r15 0000</pre></code>
+</div>
+<div class='gold-box smaller2'>
+<h2 class='h2hide'>Current Instruction</h2>
+<code id='memorywatch'><pre id='insnbytes'></pre>
+<pre id='insndecoded'></pre>
+<pre><br></pre>
+<pre><br></pre></code>
+</div>
+<div style='clear: both'></div>
+<div class='teal-box'>
+<h2 class='h2hide'>Debugger Console</h2>
+<code><div class='replresponsesouter'>
+<pre id='responses'></pre>
+</div></code>
+<div class='textentrywrap'>
+<input autocomplete='false' autofocus='autofocus' class='textentry' id='textentry' spellcheck='false'>
+</div>
+</div>
+<div class='teal-box'>
+<h2 class='h2hide'>I/O Console</h2>
+<code class='ioresponsesouter'><pre id='ioresponses'></pre></code>
+</div>
+</div>
+<div class='column-1'>
+<div class='teal-box' id='asmboxwrap'>
+<h2 class='h2hide'>Disassembly</h2>
+<code class='asmbox' id='asmbox'><div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>0010 &lt;__trap_interrupt&gt;</pre>
+</div>
+<div class='insn' id='insn0010' onclick='togglebreakpoint(this.id)'>
+<pre>0010:  3041           ret</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4400 &lt;__init_stack&gt;</pre>
+</div>
+<div class='insn' id='insn4400' onclick='togglebreakpoint(this.id)'>
+<pre>4400:  3140 0044      mov	#0x4400, sp</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4404 &lt;__low_level_init&gt;</pre>
+</div>
+<div class='insn' id='insn4404' onclick='togglebreakpoint(this.id)'>
+<pre>4404:  1542 5c01      mov	&amp;0x015c, r5</pre>
+</div>
+<div class='insn' id='insn4408' onclick='togglebreakpoint(this.id)'>
+<pre>4408:  75f3           and.b	#-0x1, r5</pre>
+</div>
+<div class='insn' id='insn440a' onclick='togglebreakpoint(this.id)'>
+<pre>440a:  35d0 085a      bis	#0x5a08, r5</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>440e &lt;__do_copy_data&gt;</pre>
+</div>
+<div class='insn' id='insn440e' onclick='togglebreakpoint(this.id)'>
+<pre>440e:  3f40 7c00      mov	#0x7c, r15</pre>
+</div>
+<div class='insn' id='insn4412' onclick='togglebreakpoint(this.id)'>
+<pre>4412:  0f93           tst	r15</pre>
+</div>
+<div class='insn' id='insn4414' onclick='togglebreakpoint(this.id)'>
+<pre>4414:  0724           jz	#0x4424 &lt;__do_clear_bss+0x0&gt;</pre>
+</div>
+<div class='insn' id='insn4416' onclick='togglebreakpoint(this.id)'>
+<pre>4416:  8245 5c01      mov	r5, &amp;0x015c</pre>
+</div>
+<div class='insn' id='insn441a' onclick='togglebreakpoint(this.id)'>
+<pre>441a:  2f83           decd	r15</pre>
+</div>
+<div class='insn' id='insn441c' onclick='togglebreakpoint(this.id)'>
+<pre>441c:  9f4f 3845 0024 mov	0x4538(r15), 0x2400(r15)</pre>
+</div>
+<div class='insn' id='insn4422' onclick='togglebreakpoint(this.id)'>
+<pre>4422:  f923           jnz	#0x4416 &lt;__do_copy_data+0x8&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4424 &lt;__do_clear_bss&gt;</pre>
+</div>
+<div class='insn' id='insn4424' onclick='togglebreakpoint(this.id)'>
+<pre>4424:  3f40 0001      mov	#0x100, r15</pre>
+</div>
+<div class='insn' id='insn4428' onclick='togglebreakpoint(this.id)'>
+<pre>4428:  0f93           tst	r15</pre>
+</div>
+<div class='insn' id='insn442a' onclick='togglebreakpoint(this.id)'>
+<pre>442a:  0624           jz	#0x4438 &lt;main+0x0&gt;</pre>
+</div>
+<div class='insn' id='insn442c' onclick='togglebreakpoint(this.id)'>
+<pre>442c:  8245 5c01      mov	r5, &amp;0x015c</pre>
+</div>
+<div class='insn' id='insn4430' onclick='togglebreakpoint(this.id)'>
+<pre>4430:  1f83           dec	r15</pre>
+</div>
+<div class='insn' id='insn4432' onclick='togglebreakpoint(this.id)'>
+<pre>4432:  cf43 7c24      mov.b	#0x0, 0x247c(r15)</pre>
+</div>
+<div class='insn' id='insn4436' onclick='togglebreakpoint(this.id)'>
+<pre>4436:  fa23           jnz	#0x442c &lt;__do_clear_bss+0x8&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4438 &lt;main&gt;</pre>
+</div>
+<div class='insn' id='insn4438' onclick='togglebreakpoint(this.id)'>
+<pre>4438:  3e40 2045      mov	#0x4520, r14</pre>
+</div>
+<div class='insn' id='insn443c' onclick='togglebreakpoint(this.id)'>
+<pre>443c:  0f4e           mov	r14, r15</pre>
+</div>
+<div class='insn' id='insn443e' onclick='togglebreakpoint(this.id)'>
+<pre>443e:  3e40 f800      mov	#0xf8, r14</pre>
+</div>
+<div class='insn' id='insn4442' onclick='togglebreakpoint(this.id)'>
+<pre>4442:  3f40 0024      mov	#0x2400, r15</pre>
+</div>
+<div class='insn' id='insn4446' onclick='togglebreakpoint(this.id)'>
+<pre>4446:  b012 8644      call	#0x4486 &lt;enc&gt;</pre>
+</div>
+<div class='insn' id='insn444a' onclick='togglebreakpoint(this.id)'>
+<pre>444a:  b012 0024      call	#0x2400</pre>
+</div>
+<div class='insn' id='insn444e' onclick='togglebreakpoint(this.id)'>
+<pre>444e:  0f43           clr	r15</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4450 &lt;__stop_progExec__&gt;</pre>
+</div>
+<div class='insn' id='insn4450' onclick='togglebreakpoint(this.id)'>
+<pre>4450:  32d0 f000      bis	#0xf0, sr</pre>
+</div>
+<div class='insn' id='insn4454' onclick='togglebreakpoint(this.id)'>
+<pre>4454:  fd3f           jmp	#0x4450 &lt;__stop_progExec__+0x0&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4456 &lt;__ctors_end&gt;</pre>
+</div>
+<div class='insn' id='insn4456' onclick='togglebreakpoint(this.id)'>
+<pre>4456:  3040 3645      br	#0x4536 &lt;_unexpected_&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>445a &lt;INT&gt;</pre>
+</div>
+<div class='insn' id='insn445a' onclick='togglebreakpoint(this.id)'>
+<pre>445a:  1e41 0200      mov	0x2(sp), r14</pre>
+</div>
+<div class='insn' id='insn445e' onclick='togglebreakpoint(this.id)'>
+<pre>445e:  0212           push	sr</pre>
+</div>
+<div class='insn' id='insn4460' onclick='togglebreakpoint(this.id)'>
+<pre>4460:  0f4e           mov	r14, r15</pre>
+</div>
+<div class='insn' id='insn4462' onclick='togglebreakpoint(this.id)'>
+<pre>4462:  8f10           swpb	r15</pre>
+</div>
+<div class='insn' id='insn4464' onclick='togglebreakpoint(this.id)'>
+<pre>4464:  024f           mov	r15, sr</pre>
+</div>
+<div class='insn' id='insn4466' onclick='togglebreakpoint(this.id)'>
+<pre>4466:  32d0 0080      bis	#0x8000, sr</pre>
+</div>
+<div class='insn' id='insn446a' onclick='togglebreakpoint(this.id)'>
+<pre>446a:  b012 1000      call	#0x10</pre>
+</div>
+<div class='insn' id='insn446e' onclick='togglebreakpoint(this.id)'>
+<pre>446e:  3241           pop	sr</pre>
+</div>
+<div class='insn' id='insn4470' onclick='togglebreakpoint(this.id)'>
+<pre>4470:  3041           ret</pre>
+</div>
+<div class='insn' id='insn4472' onclick='togglebreakpoint(this.id)'>
+<pre>4472:  5468 6973      addc.b	0x7369(r8), r4</pre>
+</div>
+<div class='insn' id='insn4476' onclick='togglebreakpoint(this.id)'>
+<pre>4476:  4973           sbc.b	r9</pre>
+</div>
+<div class='insn' id='insn4478' onclick='togglebreakpoint(this.id)'>
+<pre>4478:  5365           .word	0x6553</pre>
+</div>
+<div class='insn' id='insn447a' onclick='togglebreakpoint(this.id)'>
+<pre>447a:  6375           .word	0x7563</pre>
+</div>
+<div class='insn' id='insn447c' onclick='togglebreakpoint(this.id)'>
+<pre>447c:  7265           addc.b	@r5+, sr</pre>
+</div>
+<div class='insn' id='insn447e' onclick='togglebreakpoint(this.id)'>
+<pre>447e:  5269 6768      addc.b	0x6867(r9), sr</pre>
+</div>
+<div class='insn' id='insn4482' onclick='togglebreakpoint(this.id)'>
+<pre>4482:  743f           jmp	#0x436c &lt;__none__+0x436c&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>...</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4486 &lt;enc&gt;</pre>
+</div>
+<div class='insn' id='insn4486' onclick='togglebreakpoint(this.id)'>
+<pre>4486:  0b12           push	r11</pre>
+</div>
+<div class='insn' id='insn4488' onclick='togglebreakpoint(this.id)'>
+<pre>4488:  0a12           push	r10</pre>
+</div>
+<div class='insn' id='insn448a' onclick='togglebreakpoint(this.id)'>
+<pre>448a:  0912           push	r9</pre>
+</div>
+<div class='insn' id='insn448c' onclick='togglebreakpoint(this.id)'>
+<pre>448c:  0812           push	r8</pre>
+</div>
+<div class='insn' id='insn448e' onclick='togglebreakpoint(this.id)'>
+<pre>448e:  0d43           clr	r13</pre>
+</div>
+<div class='insn' id='insn4490' onclick='togglebreakpoint(this.id)'>
+<pre>4490:  cd4d 7c24      mov.b	r13, 0x247c(r13)</pre>
+</div>
+<div class='insn' id='insn4494' onclick='togglebreakpoint(this.id)'>
+<pre>4494:  1d53           inc	r13</pre>
+</div>
+<div class='insn' id='insn4496' onclick='togglebreakpoint(this.id)'>
+<pre>4496:  3d90 0001      cmp	#0x100, r13</pre>
+</div>
+<div class='insn' id='insn449a' onclick='togglebreakpoint(this.id)'>
+<pre>449a:  fa23           jne	#0x4490 &lt;enc+0xa&gt;</pre>
+</div>
+<div class='insn' id='insn449c' onclick='togglebreakpoint(this.id)'>
+<pre>449c:  3c40 7c24      mov	#0x247c, r12</pre>
+</div>
+<div class='insn' id='insn44a0' onclick='togglebreakpoint(this.id)'>
+<pre>44a0:  0d43           clr	r13</pre>
+</div>
+<div class='insn' id='insn44a2' onclick='togglebreakpoint(this.id)'>
+<pre>44a2:  0b4d           mov	r13, r11</pre>
+</div>
+<div class='insn' id='insn44a4' onclick='togglebreakpoint(this.id)'>
+<pre>44a4:  684c           mov.b	@r12, r8</pre>
+</div>
+<div class='insn' id='insn44a6' onclick='togglebreakpoint(this.id)'>
+<pre>44a6:  4a48           mov.b	r8, r10</pre>
+</div>
+<div class='insn' id='insn44a8' onclick='togglebreakpoint(this.id)'>
+<pre>44a8:  0d5a           add	r10, r13</pre>
+</div>
+<div class='insn' id='insn44aa' onclick='togglebreakpoint(this.id)'>
+<pre>44aa:  0a4b           mov	r11, r10</pre>
+</div>
+<div class='insn' id='insn44ac' onclick='togglebreakpoint(this.id)'>
+<pre>44ac:  3af0 0f00      and	#0xf, r10</pre>
+</div>
+<div class='insn' id='insn44b0' onclick='togglebreakpoint(this.id)'>
+<pre>44b0:  5a4a 7244      mov.b	0x4472(r10), r10</pre>
+</div>
+<div class='insn' id='insn44b4' onclick='togglebreakpoint(this.id)'>
+<pre>44b4:  8a11           sxt	r10</pre>
+</div>
+<div class='insn' id='insn44b6' onclick='togglebreakpoint(this.id)'>
+<pre>44b6:  0d5a           add	r10, r13</pre>
+</div>
+<div class='insn' id='insn44b8' onclick='togglebreakpoint(this.id)'>
+<pre>44b8:  3df0 ff00      and	#0xff, r13</pre>
+</div>
+<div class='insn' id='insn44bc' onclick='togglebreakpoint(this.id)'>
+<pre>44bc:  0a4d           mov	r13, r10</pre>
+</div>
+<div class='insn' id='insn44be' onclick='togglebreakpoint(this.id)'>
+<pre>44be:  3a50 7c24      add	#0x247c, r10</pre>
+</div>
+<div class='insn' id='insn44c2' onclick='togglebreakpoint(this.id)'>
+<pre>44c2:  694a           mov.b	@r10, r9</pre>
+</div>
+<div class='insn' id='insn44c4' onclick='togglebreakpoint(this.id)'>
+<pre>44c4:  ca48 0000      mov.b	r8, 0x0(r10)</pre>
+</div>
+<div class='insn' id='insn44c8' onclick='togglebreakpoint(this.id)'>
+<pre>44c8:  cc49 0000      mov.b	r9, 0x0(r12)</pre>
+</div>
+<div class='insn' id='insn44cc' onclick='togglebreakpoint(this.id)'>
+<pre>44cc:  1b53           inc	r11</pre>
+</div>
+<div class='insn' id='insn44ce' onclick='togglebreakpoint(this.id)'>
+<pre>44ce:  1c53           inc	r12</pre>
+</div>
+<div class='insn' id='insn44d0' onclick='togglebreakpoint(this.id)'>
+<pre>44d0:  3b90 0001      cmp	#0x100, r11</pre>
+</div>
+<div class='insn' id='insn44d4' onclick='togglebreakpoint(this.id)'>
+<pre>44d4:  e723           jne	#0x44a4 &lt;enc+0x1e&gt;</pre>
+</div>
+<div class='insn' id='insn44d6' onclick='togglebreakpoint(this.id)'>
+<pre>44d6:  0b43           clr	r11</pre>
+</div>
+<div class='insn' id='insn44d8' onclick='togglebreakpoint(this.id)'>
+<pre>44d8:  0c4b           mov	r11, r12</pre>
+</div>
+<div class='insn' id='insn44da' onclick='togglebreakpoint(this.id)'>
+<pre>44da:  183c           jmp	#0x450c &lt;enc+0x86&gt;</pre>
+</div>
+<div class='insn' id='insn44dc' onclick='togglebreakpoint(this.id)'>
+<pre>44dc:  1c53           inc	r12</pre>
+</div>
+<div class='insn' id='insn44de' onclick='togglebreakpoint(this.id)'>
+<pre>44de:  3cf0 ff00      and	#0xff, r12</pre>
+</div>
+<div class='insn' id='insn44e2' onclick='togglebreakpoint(this.id)'>
+<pre>44e2:  0a4c           mov	r12, r10</pre>
+</div>
+<div class='insn' id='insn44e4' onclick='togglebreakpoint(this.id)'>
+<pre>44e4:  3a50 7c24      add	#0x247c, r10</pre>
+</div>
+<div class='insn' id='insn44e8' onclick='togglebreakpoint(this.id)'>
+<pre>44e8:  684a           mov.b	@r10, r8</pre>
+</div>
+<div class='insn' id='insn44ea' onclick='togglebreakpoint(this.id)'>
+<pre>44ea:  4b58           add.b	r8, r11</pre>
+</div>
+<div class='insn' id='insn44ec' onclick='togglebreakpoint(this.id)'>
+<pre>44ec:  4b4b           mov.b	r11, r11</pre>
+</div>
+<div class='insn' id='insn44ee' onclick='togglebreakpoint(this.id)'>
+<pre>44ee:  0d4b           mov	r11, r13</pre>
+</div>
+<div class='insn' id='insn44f0' onclick='togglebreakpoint(this.id)'>
+<pre>44f0:  3d50 7c24      add	#0x247c, r13</pre>
+</div>
+<div class='insn' id='insn44f4' onclick='togglebreakpoint(this.id)'>
+<pre>44f4:  694d           mov.b	@r13, r9</pre>
+</div>
+<div class='insn' id='insn44f6' onclick='togglebreakpoint(this.id)'>
+<pre>44f6:  cd48 0000      mov.b	r8, 0x0(r13)</pre>
+</div>
+<div class='insn' id='insn44fa' onclick='togglebreakpoint(this.id)'>
+<pre>44fa:  ca49 0000      mov.b	r9, 0x0(r10)</pre>
+</div>
+<div class='insn' id='insn44fe' onclick='togglebreakpoint(this.id)'>
+<pre>44fe:  695d           add.b	@r13, r9</pre>
+</div>
+<div class='insn' id='insn4500' onclick='togglebreakpoint(this.id)'>
+<pre>4500:  4d49           mov.b	r9, r13</pre>
+</div>
+<div class='insn' id='insn4502' onclick='togglebreakpoint(this.id)'>
+<pre>4502:  dfed 7c24 0000 xor.b	0x247c(r13), 0x0(r15)</pre>
+</div>
+<div class='insn' id='insn4508' onclick='togglebreakpoint(this.id)'>
+<pre>4508:  1f53           inc	r15</pre>
+</div>
+<div class='insn' id='insn450a' onclick='togglebreakpoint(this.id)'>
+<pre>450a:  3e53           add	#-0x1, r14</pre>
+</div>
+<div class='insn' id='insn450c' onclick='togglebreakpoint(this.id)'>
+<pre>450c:  0e93           tst	r14</pre>
+</div>
+<div class='insn' id='insn450e' onclick='togglebreakpoint(this.id)'>
+<pre>450e:  e623           jnz	#0x44dc &lt;enc+0x56&gt;</pre>
+</div>
+<div class='insn' id='insn4510' onclick='togglebreakpoint(this.id)'>
+<pre>4510:  3841           pop	r8</pre>
+</div>
+<div class='insn' id='insn4512' onclick='togglebreakpoint(this.id)'>
+<pre>4512:  3941           pop	r9</pre>
+</div>
+<div class='insn' id='insn4514' onclick='togglebreakpoint(this.id)'>
+<pre>4514:  3a41           pop	r10</pre>
+</div>
+<div class='insn' id='insn4516' onclick='togglebreakpoint(this.id)'>
+<pre>4516:  3b41           pop	r11</pre>
+</div>
+<div class='insn' id='insn4518' onclick='togglebreakpoint(this.id)'>
+<pre>4518:  3041           ret</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>451a &lt;do_nothing&gt;</pre>
+</div>
+<div class='insn' id='insn451a' onclick='togglebreakpoint(this.id)'>
+<pre>451a:  0e4f           mov	r15, r14</pre>
+</div>
+<div class='insn' id='insn451c' onclick='togglebreakpoint(this.id)'>
+<pre>451c:  0f4e           mov	r14, r15</pre>
+</div>
+<div class='insn' id='insn451e' onclick='togglebreakpoint(this.id)'>
+<pre>451e:  3041           ret</pre>
+</div>
+<div class='insn' id='insn4520' onclick='togglebreakpoint(this.id)'>
+<pre>4520:  7768           addc.b	@r8+, r7</pre>
+</div>
+<div class='insn' id='insn4522' onclick='togglebreakpoint(this.id)'>
+<pre>4522:  6174           subc.b	@r4, sp</pre>
+</div>
+<div class='insn' id='insn4524' onclick='togglebreakpoint(this.id)'>
+<pre>4524:  2773           subc	#0x2, r7</pre>
+</div>
+<div class='insn' id='insn4526' onclick='togglebreakpoint(this.id)'>
+<pre>4526:  2074           subc	@r4, pc</pre>
+</div>
+<div class='insn' id='insn4528' onclick='togglebreakpoint(this.id)'>
+<pre>4528:  6865           addc.b	@r5, r8</pre>
+</div>
+<div class='insn' id='insn452a' onclick='togglebreakpoint(this.id)'>
+<pre>452a:  2070           subc	@pc, pc</pre>
+</div>
+<div class='insn' id='insn452c' onclick='togglebreakpoint(this.id)'>
+<pre>452c:  6173           subc.b	#0x2, sp</pre>
+</div>
+<div class='insn' id='insn452e' onclick='togglebreakpoint(this.id)'>
+<pre>452e:  7377           .word	0x7773</pre>
+</div>
+<div class='insn' id='insn4530' onclick='togglebreakpoint(this.id)'>
+<pre>4530:  6f72           subc.b	#0x4, r15</pre>
+</div>
+<div class='insn' id='insn4532' onclick='togglebreakpoint(this.id)'>
+<pre>4532:  643f           jmp	#0x43fc &lt;__none__+0x43fc&gt;</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>...</pre>
+</div>
+<div class='insnlabel' onclick='togglebreakpoint(this.id)'>
+<pre>4536 &lt;_unexpected_&gt;</pre>
+</div>
+<div class='insn' id='insn4536' onclick='togglebreakpoint(this.id)'>
+<pre>4536:  0013           reti	pc</pre>
+</div></code>
+</div>
+<div class='gold-box'>
+<h2 class='h2hide'>Live Memory Dump</h2>
+<code class='memorybox' id='memorybox'><div class='watchline' id='r00line' style='display: none'></div>
+<div class='watchline' id='r01line' style='display: none'></div>
+<div class='watchline' id='r04line' style='display: none'></div>
+<div class='watchline' id='r05line' style='display: none'></div>
+<div class='watchline' id='r06line' style='display: none'></div>
+<div class='watchline' id='r07line' style='display: none'></div>
+<div class='watchline' id='r08line' style='display: none'></div>
+<div class='watchline' id='r09line' style='display: none'></div>
+<div class='watchline' id='r10line' style='display: none'></div>
+<div class='watchline' id='r11line' style='display: none'></div>
+<div class='watchline' id='r12line' style='display: none'></div>
+<div class='watchline' id='r13line' style='display: none'></div>
+<div class='watchline' id='r14line' style='display: none'></div>
+<div class='watchline' id='r15line' style='display: none'></div>
+<span class='watchbox' id='r00name' style='display: none'>pc</span>
+<span class='watchbox' id='r01name' style='display: none'>sp</span>
+<span class='watchbox' id='r04name' style='display: none'>r04</span>
+<span class='watchbox' id='r05name' style='display: none'>r05</span>
+<span class='watchbox' id='r06name' style='display: none'>r06</span>
+<span class='watchbox' id='r07name' style='display: none'>r07</span>
+<span class='watchbox' id='r08name' style='display: none'>r08</span>
+<span class='watchbox' id='r09name' style='display: none'>r09</span>
+<span class='watchbox' id='r10name' style='display: none'>r10</span>
+<span class='watchbox' id='r11name' style='display: none'>r11</span>
+<span class='watchbox' id='r12name' style='display: none'>r12</span>
+<span class='watchbox' id='r13name' style='display: none'>r13</span>
+<span class='watchbox' id='r14name' style='display: none'>r14</span>
+<span class='watchbox' id='r15name' style='display: none'>r15</span></code>
+</div>
+<div style='clear: both'></div>
+</div>
+<a class='button orange' href='#hideheaders' id='hideheaders' onclick='hideheaders()'>Toggle minimal mode</a>
+</div>
+</main>
+<div id='gray_bg' style='display: none'>
+<div id='real_bg'></div>
+<div class='myalert_outer' id='io_outer' style='display: none'>
+<div class='myalert_inner' id='io_inner'>
+<div class='gold-box'>
+<h2>IO interrupt triggered</h2>
+<div class='spaceborder'>
+<br>
+The CPU has requested user input from the console. Below is the output
+displayed on the console.
+<div id='io_output_box_wrap'>
+<div id='io_output_box'>
+<pre class='wrap'>&nbsp;</pre>
+</div>
+</div>
+Enter input below:
+<div>
+<input id='io_check_box' type='checkbox'>
+<label for='io_check_box'>
+Check here if entering hex encoded input.
+</label>
+</div>
+<div>
+<input autocomplete='false' id='io_input_box' spellcheck='false'>
+<input class='button orange' onclick='cpu.io_response()' type='button' value='send'>
+<input class='button grey' id='io_wait' onclick='cpu.io_wait()' type='button' value='wait'>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='myalert_outer' id='youwin_outer' style='display: none'>
+<div class='myalert_inner' id='youwin_inner'>
+<div class='gold-box'>
+<h2>Door Unlocked</h2>
+<div class='spaceborder'>
+<center id='youwintext'>.</center>
+<center>
+<input class='button orange' id='nextlevelbutton' type='button' value="let's go!">
+</center>
+</div>
+</div>
+</div>
+</div>
+<div class='myalert_outer' id='nowin_outer' style='display: none'>
+<div class='myalert_inner' id='nowin_inner'>
+<div class='gold-box'>
+<h2>Not Accepted</h2>
+<div class='spaceborder'>
+The lock did not accept your input. Try again.
+<center>
+<input class='button orange' onclick='endnowin()' type='button' value='okay'>
+</center>
+</div>
+</div>
+</div>
+</div>
+<div class='myalert_outer' id='info_outer' style='display: none'>
+<div class='myalert_inner' id='info_inner'>
+<div class='gold-box'>
+<h2>Manual</h2>
+<div class='spaceborder'>
+<pre id='info' style='padding: 10px'></pre>
+<center>
+<input class='button orange' onclick='donemanual()' type='button' value='okay'>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer id='footer'>
+<div class='wrap'>
+<div class='copy align_center'>© Matasano Security and Square, Inc 2014</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+  String.prototype.last = function(n) {
+    if (n > this.length)
+      return this;
+    else {
+      return this.substring(this.length, this.length - n);
+    }
+  };
+  
+  var csrf_param = $("meta[name=csrf-param]").attr('content');
+  var csrf_value = $("meta[name=csrf-token]").attr('content');
+  
+  $(function() { 
+    $("form.real").each(function() {
+      $("<input>").attr("type", "HIDDEN").
+        attr("name", csrf_param).
+        val(csrf_value).
+        appendTo($(this));
+    });
+  
+    $(".close").click(function() {
+      console.log("whee", this, $(this).closest(".alert"));
+      $(this).closest(".alert").remove()
+    });
+  });
+  
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+                             $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+  $(function() {
+   function moveFooter() {
+     var offset = $(window).height() - $('body').height();
+     if (offset > 0) {
+       $('footer').css('position', 'relative').css('top', offset + 'px');
+     } else {
+       $('footer').css('position', 'static');
+     }
+   }
+   $(window).resize(moveFooter);
+   $(window).load(moveFooter);
+   moveFooter();
+  });
+</script>
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/assets/pagebody-df45cb0631518620834e9bb833418041.js HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: application/x-javascript
+Content-Length: 22603
+Connection: keep-alive
+Expires: Thu, 02 Mar 2017 23:56:09 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+Accept-Ranges: bytes
+
+function write(e){writen(e+"\n")}function writen(e){document.getElementById("responses").textContent+=e,setTimeout(function(){$(".replresponsesouter").animate({scrollTop:$("#responses").height()},0)},0)}function write_io(e){document.getElementById("ioresponses").textContent+=e,setTimeout(function(){$(".ioresponsesouter").animate({scrollTop:$("#ioresponses").height()},0)},0)}function history_prev(){var e=$("#textentry").val(),t=chistory.pop();$("#textentry").val(t),chistory.unshift(e)}function history_next(){var e=$("#textentry").val(),t=chistory.shift();$("#textentry").val(t),chistory.push(e)}function dolist(e){if(0!=e.length){var t;do{if(t=e.shift(),void 0==t)return;t=t.trim()}while(!t);if(t){parse(t,1);var n=function(t){1!=t.state&&3!=t.state?dolist(e):cpu.update(n)};cpu.update(n)}}}function parse(e,t){if((""==e||void 0==e)&&(e=cpu.prev_cmd),0==e.indexOf("#define")){var n=e.split(" ");n.shift();var i=n.shift();return functions[i]=n.join(" "),write("> "+e),void write("  defined "+i+" to run "+functions[i])}if(-1!=e.indexOf(";")){chistory[chistory.length-1]==e||t||chistory.push(e),write("> "+e),cpu.prev_cmd=e,cpu.prev_cmd_time=Date.now();var o=e.split(";");return void dolist(o)}if(functions[e]){chistory[chistory.length-1]==e||t||chistory.push(e),cpu.prev_cmd=e,cpu.prev_cmd_time=Date.now();var o=e.split(";");return void parse(functions[e])}/^b /.test(e)||/^brea/.test(e)||(e=e.toLowerCase()),t||(cpu.prev_cmd=e,cpu.prev_cmd_time=Date.now()),cmd=e.split(" "),cpu.is_over||cpu.debugmode&&(chistory[chistory.length-1]==e||t||chistory.push(e),"solve"==cmd[0]?(setTimeout(function(){$("#textentry").prop("disabled",!0),$("#io_wait").hide()},5),changemode(),cpu._reset(function(){cpu._continue()})):"help"==cmd[0]?(write("> "+e),cpu._help()):-1!=e.indexOf("=")?(write("> "+e),cmd=e.replace("="," = "),cmd=cmd.replace(/  /g," ").split(" "),cpu._let(cmd)):"_"+cmd[0]in cpu?(write("> "+e),cpu["_"+cmd[0]](cmd)):(write("> "+e),write("   Unknown Command.")),setTimeout(function(){$("#textentry").focus()},30),setTimeout(function(){$("#textentry").focus()},200),$("#textentry").focus(),cpu.reset_expirey())}function pad(e,t){for("number"==typeof e&&(e=""+e);e.length<t;)e="0"+e;return e}function scrollToElement(e){if(element=$(e),element.offset()){var t=element.offset().top;t+=$("#asmbox").scrollTop(),$("#asmbox").animate({scrollTop:t-200},0)}}function randmsg(){var e=Math.random();return 1.99>e?"":.992>e?"   yessir\n":.994>e?"   as you command\n":.996>e?"   NOU (just kidding)\n":.998>e?"   fine...\n":"   you want me to what?!\n"}function youwin(e,t){window.onbeforeunload=function(){},isreal_glob=e,$("#gray_bg").show(),e?($("#youwin_outer h1 center").text("Door Unlocked"),$("#youwintext").text("Our operatives are entering the building. Go back to the world map to see what new warehouses they find.\nThe CPU completed in "+t+" cycles.\n\n"),$("#MYFORM").show(),$("#nextlevelbutton").click(function(){window.location="/"}),$("#nextlevelbutton").val("Back to the map.")):($("#youwin_outer h1 center").text("Caught Unlock Interrupt"),console.log(window.in_tutorial),window.in_tutorial?(window.in_tutorial=!1,$("#youwintext").text("If you were not connected to the debug lock, the door would now be open.\nThe CPU completed in "+t+" cycles.")):$("#youwintext").text('If you were not connected to the debug lock, the door would now be open.\nNow reset the CPU and type "solve" to run on the real lock, without the debugger.\n\nThe CPU completed in '+t+" cycles."),$("#nextlevelbutton").click(function(){$("#youwin_outer").hide(),cpu._reset(),$("#gray_bg").hide()}),$("#nextlevelbutton").val("Back to the debugger.")),$("#youwin_outer").show(),$("#textentry").prop("disabled",!0)}function nowin(){$("#gray_bg").show(),$("#nowin_outer").show()}function endnowin(){$("#gray_bg").hide(),$("#nowin_outer").hide(),$("#textentry").prop("disabled",!1),$("#io_wait").hide(),changemode()}function show_debug_hi_msg(){write("Welcome to the lock debugger."),write("You are connected to a lock you managed to procure. You have"),write("  enabled the JTAG headers. This is not the real door lock."),write("  Use this mode to figure out what the lock is doing, and"),write("  then leave the debugger (upper left button) and enter"),write("  your input on the actual lock."),write("If you're not  sure what to do with this  interface, typing"),write('  "help" would be a good start.'),write('If you just want to see things work, type "continue".'),write(""),write("Connecting to remote lock ...")}function show_normal_hi_msg(){}function changemode(){cpu.debugmode=!cpu.debugmode,$("#responses").text(""),show_debug_hi_msg(),$("#whichmode pre").text("Leave Debug Mode"),$("#registers").show(),$(".replresponsesouter").show(),$(".textentrywrap").show(),$("#memorywatch").show(),$("#startandrestart").hide(),$("#io_wait").show(),write("Resetting CPU state."),cpu._reset()}function decodehex(e){for(var t="",n=0;n<e.length;n+=2)t+=String.fromCharCode(parseInt(e.substr(n,2),16));return t}function hideheaders(){isheaders?($(".h2hide").hide(),$("#header").hide(),$("#footer").hide()):($(".h2hide").show(),$("#header").show(),$("#footer").show()),isheaders=!isheaders}function showmanual(){cpu.get("/get_manual",function(e){"[insert story here]"!=e.manual&&($("#info").text(e.manual),$("#gray_bg").show(),$("#info_outer").show())})}function donemanual(){$("#gray_bg").hide(),$("#info_outer").hide()}function togglebreakpoint(e){var t=e.substr(4,4);/170/.test($("#"+e).css("background-color").toString())?cpu._unbreak([null,t]):cpu._break([null,t])}var prod=1;$(document).ready(function(){cpu.send("/cpu/is_alive",{},function(e){var t="You already have another debugger window open. Starting the debugger will invalidate any existing debugger windows.";return prod&&JSON.parse(e)&&!confirm(t)?(window.onbeforeunload=window.onunload=function(){},void(location.href="/")):($("#memorybox").append("<div id='memory10000' style='display: none' class='topofregion'><pre>sdfsdfdfs</pre></div>"),show_debug_hi_msg(),prod&&showmanual(),$("#textentry").keydown(function(e){13==e.which&&(parse($("#textentry").val()),$("#textentry").val(""),e.preventDefault()),38==e.which&&(e.preventDefault(),history_prev()),40==e.which&&(e.preventDefault(),history_next())}),$("#io_input_box").keypress(function(e){13==e.which&&(cpu.io_response(),console.log("donea"),e.preventDefault(),console.log("doneb"))}),cpu.load(),void setTimeout(function(){var e=document.getElementById("asmbox").children;for(var t in e){var n=e[t].id;if(n)for(var i=parseInt(n.substr(4,16),16),o=0;6>o;o++)cpu.div_insns[i+o]=n}},10))})});var chistory=[],functions={},the_thing_width=null,cpu={expirey1:null,expirey2:null,first_um:!0,is_over:!1,prev_instr:null,prev_cmd:"help",prev_cmd_time:0,update_int:null,level:null,debugmode:!0,registers:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],memory:{},gaps:[[0,1048576]],div_insns:{},win_input:[],tracking:[0,1],reset_expirey:function(){clearTimeout(cpu.expirey1),clearTimeout(cpu.expirey2),cpu.expirey1=setTimeout(function(){window.onbeforeunload=function(){},alert("Your session has expired."),window.location="/"},15e5),cpu.expirey2=setTimeout(function(){write("   +-------------------------------------------------+"),write("  /                                                 /|"),write(" /                                                 / |"),write("+-------------------------------------------------+  |"),write("|                     WARNING                     |  |"),write("|                                                 |  |"),write("|  Your session is going to reset in 10 minutes.  |  |"),write("|                                                 |  +"),write("|  You must make an action to reset the timeout.  | /"),write("|                                                 |/"),write("+-------------------------------------------------+")},9e5)},_help:function(){write(""),write("Valid commands:"),write("  Help - show this message"),write("  Solve - solve the level on the real lock"),write("  Reset - reset the state of the debugger"),write("  (C)ontinue - run until next breakpoint"),write("  (S)tep [count] - step [count] instructions"),write("  step Over / (N)ext - step until out or pc is next instruction"),write("  step Out / (F)inish - step until the function returns"),write("  (B)reak [expr] - set a breakpoint at address"),write("  (U)nbreak [expr] - remove a breakpoint"),write("  (R)ead [expr] [c] - read [c] bytes starting at [expr]"),write("  track [reg] - track the given register in memory"),write("  untrack [reg] - removes the tracking of the given register"),write("  (L)et [reg]/[addr] = [expr] - write to register or memory"),write("  Breakpoints - show a list of breakpoints"),write("  Insncount - count number of CPU cycles executed"),write("  Manual - show the manual for this page"),write(""),write("Scripting commands:"),write('  #define name [commands] - alias "name" to run [commands].'),write("  command;command - run first command, then second comamnd."),write(""),write("List of types:"),write("  [reg] := 'r' followed by a number 0-15"),write("  [addr] := base-16 integer or label name (e.g., 'main')"),write("  [expr] := [reg] or [addr] or"),write("            [expr]+[expr] or [expr]-[expr]"),write("")},send:function(e,t,n,i){$("#textentry").prop("disabled",!0),$.ajax({url:e,type:"POST",dataType:"json",contentType:"application/json",data:JSON.stringify(i?t:{body:t})}).fail(function(){$("#textentry").prop("disabled",!1),cpu.debugmode&&write("Error; connection to lock has dropped.")}).done(function(e){$("#textentry").prop("disabled",!1),e.data&&(1==e.data.success?writen(randmsg()):0==e.data.success&&write("   "+e.data.reason)),n&&n(e)})},get:function(e,t){$.ajax({url:e,type:"get",dataType:"json"}).fail(function(){cpu.debugmode&&write("Error; connection to lock has dropped.")}).done(function(e){t&&t(e)})},load:function(){cpu.send("/cpu/load",{},function(){cpu.send("/cpu/reset/"+(cpu.debugmode?"debug":"nodebug"),{},function(){write("Connected. Have fun!"),write(""),write(""),cpu.update(),cpu.get_breakpoints()})})},update_registers:function(e){var t="",n=cpu.registers;cpu.registers=e;for(var i=0;4>i;i++){for(var o="",r=0;4>r;r++){var s=i+r==0||n[4*i+r]==e[4*i+r]?"<span id='reg"+(4*i+r)+"' class='unchangedregister'>":"<span id='reg"+(4*i+r)+"'class='changedregister'>",a="r"+pad(""+(4*i+r),2);"r00"==a&&(a="pc "),"r01"==a&&(a="sp "),"r02"==a&&(a="sr "),"r03"==a&&(a="cg "),o+=a+" "+s+pad(e[4*i+r].toString(16),4)+"</span>"+(3!=r?"  ":"")}t+="<pre>"+o+"</pre>"}$("#registers").html(t),$(".tipsy").remove(),$(".pointedat").attr("class","");var u="";1&e[2]&&(u+="C"),2&e[2]&&(u+="Z"),4&e[2]&&(u+="N"),256&e[2]&&(u+="V"),16&e[2]&&(u="CPUOFF"),32768&e[2]&&(u="INT "+((32512&e[2])>>8)),$("#reg2").tipsy({fade:!1,gravity:"n",fallback:u});for(var r=4;16>r;r++)$("#reg"+r).tipsy({fade:!1,gravity:"n",fallback:""+e[r]});for(var l,r=0;16>r;r++)-1==cpu.tracking.indexOf(r)&&($("#r"+pad(r,2)+"line").hide(),$("#r"+pad(r,2)+"name").hide());var c={};for(var p in cpu.tracking){p=cpu.tracking[p];var d=$("#memorylocation"+pad(e[p].toString(16),4)),f=d.offset();if(f){var h=$("#memorybox").offset(),g=$("#memorybox").scrollTop(),m=$("#memorybox").width(),y=d.height(),v=d.height(),b=Math.floor(e[p]/8);b in c?c[b]++:c[b]=0,$("#r"+pad(p.toString(),2)+"line").css({position:"absolute",top:f.top-h.top+y+g,left:f.left-h.left+v,width:h.left+m-f.left-v-50+"px",height:"1px",display:""}),f.top==l&&(f.top+=y),l=f.top;var w=25;$("#r"+pad(p.toString(),2)+"name").css({position:"absolute",top:f.top-h.top+g,left:m-50-w*Math.floor(c[b]/2)+"px",display:""}),d.attr("class","pointedat")}else $("#r"+pad(p.toString(),2)+"line").css({display:"none"}),$("#r"+pad(p.toString(),2)+"name").css({display:"none"})}},show_running_instr:function(e){cpu.prev_instr&&($("#insn"+pad(cpu.prev_instr.toString(16),4)).css("color","#fff"),$("#insn"+pad(cpu.prev_instr.toString(16),4)).css("font-weight","")),scrollToElement("#insn"+pad(e.toString(16),4)),cpu.prev_instr=e,$("#insn"+pad(e.toString(16),4)).css("color","red"),$("#insn"+pad(e.toString(16),4)).css("font-weight","bold")},a:0,b:0,doit:{},write_memory_line:function(e,t){for(var n in cpu.gaps){var i=cpu.gaps[n];if(i[0]<=e&&e<i[1]){e+t<i[1]&&(cpu.gaps.push([e,i[1]]),65536>e+t&&(cpu.doit[e+t]=function(){var n=cpu.addIfNeeded(e+t,t);n.text(pad((e+t).toString(16),4)+":   *")})),i[0]+t==e?cpu.gaps.splice(n,1):i[1]=e;break}}var o=[];o.push(pad(e.toString(16),4)+":  ");for(var r="   ",n=e;e+t>n;n++){n%2==0&&o.push(" ");var s=cpu.memory[n]||0,a=document.createElement("span");a.id="memorylocation"+pad(n.toString(16),4),a.textContent=pad(s.toString(16),2),o.push(a),r+=s>=32&&127>=s?"&#x"+s.toString(16)+";":"."}o.push(r+"\n"),65536!=e&&(cpu.doit[e]=function(){var n=cpu.addIfNeeded(e,t);n.html(o)})},addIfNeeded:function(e,t){var n=$("#memory"+pad(e.toString(16),4)+" pre");if(0==n.length){var i=pad(e.toString(16),4);n=$("<div id='memory"+i+"' class='topofregion usedmemory'></div>");var o=$("#memory"+pad((e-t).toString(16),4));if(o.length)n.removeClass("topofregion"),o.after(n);else{var r=$("#memorybox div.topofregion");for(var s in r){var a=$(r[s]),u=parseInt(a.attr("id").substr(6),16);if(u>e){u-t==e&&a.removeClass("topofregion"),console.log("This one is going to be: "+n.attr("id")+" Already exists:"+a.attr("id")+" ;; "+u+" : "+e),a.before(n);break}}}var l=$("<pre/>");n.append(l),n=l}return n},updatememory:function(e){for(var t=0;t<e.length;t+=36){for(var n=e.substr(t,4),i=e.substr(t+4,32),o=parseInt(n,16),r=0;32>r;r+=2)if(newval=parseInt(i.substr(r,2),16),cpu.memory[o+r/2]!=newval){if(cpu.div_insns[o+r/2]&&0==cpu.first_um&&o+r/2>48){var s="#"+cpu.div_insns[o+r/2];$(s+" pre").hide(),$(s).append("<pre class='removeme'>    [overwritten]</pre>")}cpu.memory[o+r/2]=newval}null===the_thing_width&&(the_thing_width=$("#memorybox").width()),the_thing_width>600?cpu.write_memory_line(65520&parseInt(n,16),16):(cpu.write_memory_line(65528&parseInt(n,16),8),cpu.write_memory_line(8+parseInt(n,16)&65528,8))}for(var a in cpu.doit)cpu.doit[a]();$(".usedmemory").css("font-family","monospace"),cpu.doit={},cpu.first_um=!1},do_update:function(e){if(""+e.isdebug!=""+cpu.debugmode)return void changemode();if(e.new_output&&write_io(decodehex(e.new_output)),e.updatememory&&cpu.updatememory(e.updatememory),e.regs&&(cpu.update_registers(e.regs),cpu.show_running_instr(e.regs[0]),2!=e.state||cpu.debugmode||e.advanced||nowin()),e.reason&&(write(e.reason),clearInterval(cpu.update_int)),e.alert&&alert(e.alert),e.insn){var t=e.insn;$("#insnbytes").text(t.substr(0,15).trim()),$("#insndecoded").text(t.substr(15).trim().replace("	"," "))}return 1!=e.state&&(clearInterval(cpu.update_int),cpu.update_int=null),"4"==e.state&&($("#textentry").prop("disabled",!0),cpu.debugmode&&(write("   [    console awaiting input    ]"),write("   [ automatically set breakpoint ]"),write("   [     press c to continue.     ]")),$("#gray_bg").show(),$("#io_outer").show(),$("#io_output_box pre").text($("#ioresponses").text()),$("#io_input_box").focus()),e.advanced?youwin("win"==e.advanced,e.advanced_steps):void 0},update:function(e){cpu.get("/cpu/snapshot?x="+(new Date).getTime(),function(t){e&&e(t),cpu.do_update(t),$("#textentry").focus()})},io_response:function(){var e=$("#io_input_box").val();if($("#io_check_box").is(":checked")){var t=/^([0-9a-fA-F ]+)$/,n=e.match(t);if(!n)return void alert("Invalid characters in hex input");if(e=e.replace(/[^0-9a-fA-F]/g,""),e.length%2!=0)return void alert("Hex input must have an even number of characters")}else{for(var i="",o=0;o<e.length;o++)i+=e.charCodeAt(o).toString(16);e=i}cpu.win_input.push(e),cpu.send("/cpu/send_input",{body:e},function(e){return null===e.success?void alert("Something went wrong sending input to the debugger. Please try again."):(null==cpu.update_int&&(cpu.update_int=setInterval(cpu.update,1e3),setTimeout(cpu.update,300)),$("#textentry").focus(),$("#textentry").prop("disabled",!1),void(cpu.debugmode?cpu._in({}):cpu._continue()))},1),$("#io_outer").hide(),$("#gray_bg").hide(),$("#io_input_box").val("")},io_wait:function(){$("#gray_bg").hide(),$("#io_outer").hide(),write("Console expects input. Press c to provide it."),$("#textentry").prop("disabled",!1),$("#textentry").focus()},make_breakpoint:function(e){$("#insn"+e).css("background","#00a"),$("#insn"+e).css("font-weight","bold")},get_breakpoints:function(){cpu.get("/cpu/dbg/events?x="+(new Date).getTime(),function(e){for(var t in e.data.events)0==e.data.events[t]&&(cpu.debugmode?cpu.make_breakpoint(t):($("#insn"+cpu.to_addr(t)).css("font-weight",""),$("#insn"+cpu.to_addr(t)).css("background","")))})},instr_after:function(e){e=cpu.to_addr(e),e=parseInt(e,16)+1;for(var t=0;80>t;t++)if($("#insn"+cpu.to_addr(e+t)).length)return cpu.to_addr(e+t)},to_addr:function(e){if("number"==typeof e)return pad(e.toString(16),4);if(-1!=e.indexOf("+")){var t=e.split("+");return pad((parseInt(cpu.to_addr(t.shift().trim()),16)+parseInt(cpu.to_addr(t.join("+")),16)).toString(16),4)}if(-1!=e.indexOf("-")){var t=e.split("-");return pad((parseInt(cpu.to_addr(t.shift().trim()),16)-parseInt(cpu.to_addr(t.join("-")),16)).toString(16),4)}if(/^(0x)?[0-9a-fA-F]+$/.test(e))return/^0x/.test(e)&&(e=e.substr(2),write("  You don't need to specify 0x; all numbers are entered in base 16 already.")),pad(e,4);if("r"==e.charAt(0)&&e.length<=3)return pad(cpu.registers[parseInt(e.substr(1))].toString(16),4);if("pc"==e)return pad(cpu.registers[0].toString(16),4);if("sp"==e)return pad(cpu.registers[1].toString(16),4);if("sr"==e)return pad(cpu.registers[2].toString(16),4);if("cg"==e)return pad(cpu.registers[3].toString(16),4);var n={};return $(".insnlabel").map(function(){var e=this.textContent;if("...\n"!=e&&!/^\s*\./.test(e)&&/</.test(e)){var t=/<.*>/.exec(e)[0],i=e.trim().substr(0,4);n[t]=parseInt(i,16)}}),n["<"+e+">"]?pad(n["<"+e+">"].toString(16),4):(write("   could not find label '"+e+"'; using 0000."),"0000")},_reset:function(e){cpu.win_input=[],document.getElementById("ioresponses").textContent="",$(".usedmemory").remove(),cpu.first_um=!0,cpu.gaps=[[0,1048576]],cpu.memory={};var t={};for(var n in cpu.div_insns){var i=cpu.div_insns[n];t[i]||(t[i]=1,$("#"+i+" pre").show(),$(".removeme").remove())}$("#memory10000").addClass("topofregion"),cpu.send("/cpu/reset/"+(cpu.debugmode?"debug":"nodebug"),{},function(){cpu.get_breakpoints(),cpu.update(),"function"==typeof e&&e()})},step:function(e){e?"out"==e?cpu.send("/cpu/dbg/step_out",{},function(){null==cpu.update_int&&(cpu.update_int=setInterval(cpu.update,1e3),setTimeout(cpu.update,100))}):"over"==e?cpu.send("/cpu/dbg/step_over",{},function(){null==cpu.update_int&&(cpu.update_int=setInterval(cpu.update,1e3),setTimeout(cpu.update,100))}):cpu.send("/cpu/dbg/stepn/"+e,{},function(){null==cpu.update_int&&(cpu.update_int=setInterval(cpu.update,1e3),setTimeout(cpu.update,100))}):cpu.send("/cpu/step",{},function(e){cpu.do_update(e)})},_breakpoints:function(){cpu.get("/cpu/dbg/events?x="+(new Date).getTime(),function(e){if(write("   ok"),write(""),e.data.events){write("List of breakpoints currently set:");for(var t in e.data.events)0==e.data.events[t]&&write("    "+t)}else write("No breakpoints currently set.")})},_finish:function(){cpu.step("out")},_insncount:function(){cpu.get("/cpu/dbg/stepcount",function(e){write("  The CPU has executed "+e.data.count+" cycles.")})},_manual:function(){showmanual()},_next:function(){cpu.step("over")},_step:function(e){cpu.step("in"==e[1]?e[2]:"over"==e[1]?"over":"out"==e[1]?"out":e[1])},_in:function(e){cpu.step(e[1])},_over:function(){cpu.step("over")},_out:function(){cpu.step("out")},_continue:function(){cpu.send("/cpu/dbg/continue",{},function(){null==cpu.update_int&&(cpu.update_int=setInterval(cpu.update,1e3),setTimeout(cpu.update,300))})},_break:function(e,t){if(!e[1])return void write("   Please give an expression to break at.");return t||"once"==e[2]||"o"==e[2]?void cpu.one_time_breakpoint(x[1]):void cpu.send("/cpu/dbg/event",{data:{addr:cpu.to_addr(e[1]),event:0}},function(t){t.data.success&&cpu.make_breakpoint(cpu.to_addr(e[1]))})},_unbreak:function(e){return e[1]?void cpu.send("/cpu/dbg/event",{data:{addr:cpu.to_addr(e[1]),event:-1}},function(){$("#insn"+cpu.to_addr(e[1])).css("font-weight",""),$("#insn"+cpu.to_addr(e[1])).css("background","")}):void write("   Please give an expression to unbreak.")},_read:function(e){if(!e[1])return void write("   Please give an expression to read the memory at.");var t=cpu.to_addr(e[1]);cpu.get("/cpu/dbg/memory/"+t+"?len="+(parseInt(e[2],16)+(15-parseInt(e[2],16)&15)||32),function(e){for(var n=atob(e.raw),i="",o="  ",r="  ",s=0;s<n.length;s++)s%2==0&&(o+=" "),o+=pad(n.charCodeAt(s).toString(16),2),r+=32<=n.charCodeAt(s)&&n.charCodeAt(s)<=127?String.fromCharCode(n.charCodeAt(s)):".",s%8==7&&(i+="   "+pad((-7+s+parseInt(t,16)).toString(16),4)+":"+o+r+"\n",o="  ",r="  ");write(i)})},_track:function(e){var t=["pc","sp","sr","cg"],n=e[1];if("r"==n.charAt(0)||-1!=t.indexOf(n)){var n;n=parseInt(-1!=t.indexOf(n)?t.indexOf(n):n.substr(1))}-1==cpu.tracking.indexOf(n)&&(cpu.tracking.push(n),cpu.update_registers(cpu.registers))},_untrack:function(e){var t=["pc","sp","sr","cg"],n=e[1];if("r"==n.charAt(0)||-1!=t.indexOf(n)){var n;n=parseInt(-1!=t.indexOf(n)?t.indexOf(n):n.substr(1))}var i=cpu.tracking.indexOf(n);-1!=i&&cpu.tracking.splice(i,1),cpu.update_registers(cpu.registers)},_let:function(e){if(("let"==e[0]||"l"==e[0])&&e.shift(),!e[1])return void write("   Please give a register or memory address, and expression to set it to.");e=e.filter(function(e){return e});var t=e.shift();e.shift();var n=["pc","sp","sr","cg"];if("r"==t.charAt(0)||-1!=n.indexOf(t)){var i;i=parseInt(-1!=n.indexOf(t)?n.indexOf(t):t.substr(1));var o=cpu.to_addr(e.join(" "));cpu.send("/cpu/regs",{reg:i,val:parseInt(o,16)},function(e){cpu.update_registers(e.data.regs),cpu.update()},1)}else{var i=cpu.to_addr(t),o=cpu.to_addr(e.join(" "));cpu.send("/cpu/updatememory",{addr:parseInt(i,16),val:parseInt(o,16)},function(e){cpu.updatememory(e.updatememory),cpu.update()},1)}},_view:function(){cpu.get("/cpu/output",function(e){write(("\n"+e.output).replace(/\n/g,"\n  | ")+"EOF\n\n")})}};cpu._r=cpu._read,cpu._s=cpu._in,cpu._i=cpu._in,cpu._n=cpu._next,cpu._f=cpu._finish,cpu._o=cpu._out,cpu._b=cpu._break,cpu._u=cpu._unbreak,cpu._c=cpu._continue,cpu._l=cpu._let,cpu._h=cpu._help;var isreal_glob,isheaders=1;window.onbeforeunload=function(){return prod?"Are you sure you want to leave? Your state will be lost.":void 0},window.onunload=function(){$.ajax({url:"/cpu/dbg/kill",async:!1,type:"POST",contentType:"application/json",data:JSON.stringify({body:{}})})},cpu.reset_expirey();
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/assets/guide-2cf611b7ffd734bbf045f1ea8c23da13.js HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: application/x-javascript
+Content-Length: 19993
+Connection: keep-alive
+Expires: Thu, 02 Mar 2017 23:56:09 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+Accept-Ranges: bytes
+
+var guide=new Guideline.Guide("welcome");$(document).ready(function(){function e(t,n,i,o){var r=null,a=!1;return function(){return null===r&&(n&&$("#MYFORM").hide(),i&&$("#whichmode").click(changemode),o&&$("#insn4438").click(function(){togglebreakpoint(this.id),$("#insn4438").off("click")}),console.log("Require the test of "+t),r=1,$("#textentry").off("keydown").keydown(function(n){13==n.which&&(t.test($("#textentry").val())?(parse($("#textentry").val()),$("#textentry").val(""),n.preventDefault(),a=1,e(/^YOU SHALL NOT PASS$/)()):($("#textentry").val(""),$(".wrongcmd").remove(),$("div.content h2").append("<span class='wrongcmd' style='color: red'>&nbsp;&nbsp;Wrong command</span>")))})),a}}function t(){var e=!1;return function(){return 0!=$("#io_outer").position().top&&setTimeout(function(){e=!0},300),e}}function n(e,t){var n,i=0,o=!1;return function(){return $("#io_wait").prop("disabled",!0),$("#io_check_box").prop("disabled",!0),i||(t&&$("#MYFORM").show(),n=cpu.io_response,cpu.io_response=function(){var t=$("#io_input_box").val();t!=e?($("#io_input_box").val(""),$(".wrongcmd").remove(),$("div.content h2").append("<span class='wrongcmd' style='color: red'>&nbsp;&nbsp;Wrong input</span>")):(cpu.io_response=n,n(),o=!0,$(".gl-bubble").remove())},i=1),o}}guide.on("start",function(){console.log("start"),window.in_tutorial=!0}),guide.on("complete",function(){}),guide.on("skip",function(){window.in_tutorial=!1,$("#textentry").off("keydown").keydown(function(e){13==e.which&&(parse($("#textentry").val()),$("#textentry").val(""),e.preventDefault()),38==e.which&&(e.preventDefault(),history_prev()),40==e.which&&(e.preventDefault(),history_next())})}),guide.on("realstart",function(){e(/^YOU SHALL NOT PASS$/)(),$(".insn").prop("onclick",""),$("#whichmode").prop("onclick","")});var i=guide.addPage("/cpu/debugger");i.addStep({type:"overlay",showContinue:!1,content:"<div style=''><h1>Welcome to the CPUCTF Debugger Tutorial</h1><p>This tutorial will step you through our debugger and explain how everything works by showing you how to beat this level. It is strongly recomended you go through it (it'll take less than 15 minutes, we promise), but is not required. You can always return to this tutorial if you choose not to by reloading the page. </p><button class='btn btn-large btn-primary btn-alpha-blue hide-button'><i class='icon-circle-arrow-right'></i> Show me the tutorial!</button><br/><a href='#' class='gl-skip'>I know what I'm doing -- just let me go!</a></div>"}),i.addStep({type:"overlay",showContinue:!0,continueAfter:3e3,content:"<div style=''><h1>Welcome!</h1><p style='font-size: 14px'>Scattered throughout the world in locked warehouses are briefcases filled with Cy Yombinator bearer bonds that could be worth billions comma billions of dollars. You will help steal the briefcases.</p><p>Cy Yombinator has cleverly protected the warehouses with Lockitall electronic lock devices. Lockitall locks are unlockable with an app. We've positioned operatives near each warehouse; each is waiting for you to successfully unlock the warehouse by tricking out the locks.</p><p>The Lockitall devices work by accepting Bluetooth connections from the Lockitall LockIT Pro app. We've done the hard work for you: we spent $15,000 on a development kit that includes remote controlled locks for you to practice on, and reverse engineered enough of it to build a primitive debugger.</p><p>Using the debugger, you'll be able to single step the lock code, set breakpoints, and examine memory on your own test instance of the lock. You'll use the debugger to find an input that unlocks the test lock, and then replay it to a real lock.</p></div>"}),i.addStep({title:"This is the disassembled object file.",content:"It has all of the instructions that the LockIT Pro will execute. Scroll around to view the instructions.",showAt:".asmbox",align:"right middle",continueWhen:"scroll .asmbox"}),i.addStep({title:"This is the memory viewer.",content:"It contains the contents of memory. Scroll through it too.",showAt:".memorybox",align:"right middle",continueWhen:"scroll .memorybox"}),i.addStep({title:"This is the debugger input.",content:"Enter commands here. Start by typing 'help'",showAt:".textentrywrap",align:"center top",continueWhen:e(/^(h|help)$/)}),i.addStep({title:"This is the debugger console.",content:"It contains the output to the commands you enter. Scroll back and read through the help.",showAt:".replresponsesouter",align:"left middle",continueWhen:"scroll .replresponsesouter"}),i.addStep({title:"Run the program.",content:'Type either "continue" or "c" to start.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(c|continue)$/)}),i.addStep({title:"This is the IO console.",content:"Here we see the output of the lock. In this case, it wants us to enter the password.",showAt:"#io_output_box",align:"center bottom",continueAfter:3e3,waitToShow:t()}),i.addStep({title:"This is the IO console.",content:'You can enter input to the console here, which the lock will be able to read. Start by entering "test" and clicking "send".',showAt:"#io_input_box",align:"center bottom",continueWhen:n("test")}),i.addStep({title:"Continue the CPU",content:'Press "c" to continue.',showAt:".textentrywrap",align:"center top",continueWhen:e(/^(c|continue)$/)}),i.addStep({title:"CPU output goes here too.",content:"Notice that the output of the CPU is shown here as well.  In this case, the password you entered was not correct",showAt:".ioresponsesouter",align:"left middle",continueAfter:3e3}),i.addStep({title:"Notice the CPU is off.",content:"This means the program finished executing.",showAt:".replresponsesouter",align:"left middle",continueAfter:3e3}),i.addStep({title:"Reset the CPU",content:"Let's try again, but this time step through the CPU to see what's going on. Type \"reset\" to reset the CPU state.",showAt:".textentrywrap",align:"left middle",continueWhen:e(/^reset$/)}),i.addStep({title:"Set a Breakpoint",content:'In order to see what\'s going on, we are going to set a breakpoint. This stops CPU execution when a specific location is reached. In this case, type "break main" to break at the function called "main".',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(b|break) main$/)}),i.addStep({title:"Resume the CPU",content:'Now that the breakpoint is set, type "c" to continue.',showAt:".textentrywrap",align:"left middle",continueWhen:function(){return e(/^(c|continue)$/,0,0,1)}()}),i.addStep({title:"The CPU is paused.",content:"You can see a breakpoint was set by the blue background. Remove the breakpoint by clicking the instruction, so the next time you run the program, the CPU won't stop here. You can add any breakpoint by clicking on an instruction (but not during this tutorial).",showAt:".asmbox",align:"right middle",continueWhen:"click #insn4438"}),i.addStep({title:"These are the registers.",content:"They show the state of the CPU at the time of the breakpoint.",showAt:"#registers",align:"center bottom",continueAfter:3e3}),i.addStep({title:"This is the program counter.",content:"It shows the address of the currently running instruction. Notice that it is shown in base 16. All numbers in the debugger are base 16.",showAt:"#reg0",align:"center bottom",continueAfter:3e3}),i.addStep({title:"This is the current instruction.",content:"The instruction at the program counter is shown here. You can also see it in the instruction listing on the left.",showAt:"#insndecoded",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Step the CPU.",content:'Let\'s run the program one step. Type "step" or "s".',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"We ran one instruction",content:"The instruction we're on (the red one) is one after where the breakpoint was set. We moved one step.",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Step Many.",content:'Stepping one instruction at a time can be very slow. Type "step 5a" to step a bunch of instructions. Remember: this number is base 16 -- we\'re actually going to step 94 instructions.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step) 5a$/)}),i.addStep({title:"This is the INT function",content:"This is how the lock interacts with the user. By issuing interrupts, the lock can put characters, request input, or do just about anything else.",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Partial output",content:"The partial output of the program is shown here.",showAt:".ioresponsesouter",align:"left middle",continueAfter:3e3}),i.addStep({title:"Continue again.",content:'Type "continue" to run until you are asked for the password.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(c|continue)$/)}),i.addStep({title:"You still don't know the password.",content:"But let's enter a password to see what's going on. Put \"test\" again.",showAt:"#io_input_box",align:"center bottom",waitToShow:t(),continueWhen:n("test")}),i.addStep({title:"Stepping out.",content:'You can step out of the current function by typing "out".  This runs until it encounters the next "ret" (return) instruction. All functions end with "ret" instructions to return them to the caller.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^out$/)}),i.addStep({title:"Stepping out.",content:'You\'re not yet at the main level, step out can be abbreviated "f" for "finish": use that instead.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(f|finish)$/)}),i.addStep({title:"Stepping out.",content:"Do it one more time.",showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(out|f|finish)$/)}),i.addStep({title:"The check_password function looks interesting.",content:"",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Let's break there",content:'Set a breakpoint there by typing "break check_password"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(b|break) check_password$/)}),i.addStep({title:"Run to the breakpoint",content:'Type "c" or "continue"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(c|continue)$/)}),i.addStep({title:"This looks promising.",content:"It looks like this is what checks your password to see if it's correct.",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Parsing an instruction.",content:'The next instruction to execute is <pre>mov.b @r15, r14</pre>  This means "move whatever is at memory  addressed by r15 in to r14". Look at the value of r15.',showAt:"#registers",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Find 439c in memory.",content:"Find the value of r15 (remember, it's 0x439c) in memory. Notice how the password you entered is there?",showAt:".memorybox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Try it.",content:"Take a step (type 's') to watch the CPU move that value in to R14.",showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"Register changed.",content:"Notice that register 14 has changed. 0x74 is the hex value of the character 't'.",showAt:"#registers",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Another step.",content:"Now take another step (type 's') to watch the next instruction. This one is going to add one to r15.",showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"Register to change.",content:"Notice r15 has incremented.",showAt:"#registers",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Another step.",content:"The next instruction is going to add one to r12. Take a step (type 's') to watch it do that.",showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"Register change.",content:"Notice the value of r12 has increased to 1.",showAt:"#registers",align:"center bottom",continueAfter:3e3}),i.addStep({title:"The tst instruction (test if not zero).",content:"The test function will compare the value in r14 with the constant 0.  It will then set flags in the status register accordingly.",showAt:"#memorywatch",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Another step.",content:"Take a step (type 's') to watch the comparison.",showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"The jnz instruction (jump if not zero).",content:'The jump-if-not-zero instruction is a conditional jump, which will move the program counter when the zero "flag" is not set. This one jumps backward by 8 bytes.',showAt:"#memorywatch",align:"center bottom",continueAfter:3e3}),i.addStep({title:"This is the status register.",content:'Mouse over it to look at the flags that are set.  The "C" means that the "Carry" flag is set. If the result of the last instruction was 0, the "Zero" flag would be set. It\'s not, though.',showAt:"#reg2",align:"left middle",continueAfter:3e3}),i.addStep({title:"Another step.",content:'Let\'s see it jump. Type "s".',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"We're back where we started.",content:"But remember, we processed one byte of input, and incremented r12 along the way.",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Eventually the loop will end.",content:'When it happens that r14 is 0, the jump  won\'t occur, and we will end at address 0x448e.  Set a breakpoint there with "break 448e". Notice that this is a base-16 address. All numbers you enter in the debugger are base-16.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(b|break) 448e$/)}),i.addStep({title:"Unset the other breakpoint",content:'You also need to unset your other breakpoint. Type "unbreak check_password".',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^unbreak check_password$/)}),i.addStep({title:"Now continue to that location",content:'Type "c"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(c|continue)$/)}),i.addStep({title:"Unbreak it now.",content:'We don\'t want this breakpoint any more, type "unbreak 448e"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(unbreak) 448e$/)}),i.addStep({title:"The cmp instruction (compare two values).",content:"The compare instruction will compare the value in r12 with the constant 9.  Notice that r12 is 5 right now. This is because  we entered a 4 character password, with one additional character for the null byte.",showAt:"#memorywatch",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Step to watch it do that",content:'Type "s"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"The jeq/jz instruction (jump if equal/jump if zero)",content:'This function will skip forward by 4 bytes if the comparison was true (if r12 was 9). The jump-if-equal and jump-if-zero instructions are actually equivalent: this is because "cmp" sets the zero flag when the values are equal. ',showAt:"#memorywatch",align:"center bottom",continueAfter:3e3}),i.addStep({title:"The zero flag isn't set, so we don't expect the jump to happen.",content:'Type "s"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"What if we did jump?.",content:"See what would have happened if we did jump",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"We would have ended up here.",content:"At address 4498.",showAt:"#insn4498",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Change the program counter.",content:'Type "let pc=4498" to change where the program counter points to',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(let |)pc ?= ?4498$/)}),i.addStep({title:"Out",content:'Step out (type "out" or "f") to see what\'s going to happen next',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(out|f|finish)$/)}),i.addStep({title:"Testing r15",content:'We\'re running a "test" instruction again.  It checks if r15 is non-zero, and sets the status flag accordingly.',showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Step",content:'Watch the instruction run; type "step"',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"Step again.",content:'We know that r15 was 1, and the jump happens when the value isn\'t 0. Step again; type "s".',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(s|step)$/)}),i.addStep({title:"Done!",content:"We're moving the access granted string, and then calling puts, and then calling unlock_door. This means we're done.",showAt:".asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Continue",content:'Continue the CPU executing with "c"',showAt:".textentrywrap",align:"left middle",continueWhen:function(){return e(/^(c|continue)$/,1)}()}),i.addStep({title:"Yay!",content:"But remember, we cheated by moving the program counter to the instruction we wanted. Let's do it again, but with the correct password this time",showAt:"#nextlevelbutton",align:"center bottom",continueWhen:"click #nextlevelbutton"}),i.addStep({title:"Again.",content:'Reset the state of the CPU (type "reset") and start again.',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(reset)$/)}),i.addStep({title:"Continue",content:'Start up the CPU to get the input prompt. Type "c".',showAt:".textentrywrap",align:"left middle",continueWhen:e(/^(c|continue)$/)}),i.addStep({title:"The interrupt request also has additional options.",content:'This check box lets you enter hex-encoded values, for when you need to enter special characters. For example, you would type "74657374" instead of "test", after checking this box.',showAt:"#io_check_box",align:"center bottom",waitToShow:t(),continueAfter:3e3}),i.addStep({title:"The interrupt request also has additional options.",content:'This button lets you dismiss the popup and go back to the debugger to investigate more. You can resume the CPU with "continue" which will bring back this popup.',showAt:"#io_wait",align:"center bottom",continueAfter:3e3}),i.addStep({title:"Now let's solve it. We know how to make the password correct!",content:'Remember that r12 needed to be 9?  And it incremented once for every character we typed, plus one for the ending null byte?  So we just need to enter an 8 character password.  Try "password" as the input.',showAt:"#io_input_box",align:"center bottom",continueWhen:n("password")}),i.addStep({title:"Notice the CPU set a breakpoint",content:"After you send input from the debugger, the CPU automatically breaks. This makes it easier to debug what's going on. (This has happened every time previously, too.)",showAt:"#asmbox",align:"right middle",continueAfter:3e3}),i.addStep({title:"Continue",content:"Continue, to watch everything work",showAt:".textentrywrap",align:"left middle",continueWhen:function(){return e(/^(c|continue)$/,0,1)}()}),i.addStep({title:"Yay!",content:"Just remember that this was on the debugger lock.  Let's now do the same thing on the real lock, and let our operatives in the first warehouse.",showAt:"#nextlevelbutton",align:"center bottom",continueWhen:"click #nextlevelbutton"}),i.addStep({title:"To the lock!",content:"Now we're going to execute it on the real lock. Type \"solve\" to do that. You won't be able to run any debug commands, just enter the final solution.",showAt:".textentrywrap",align:"left middle",continueWhen:function(){return e(/^(solve)$/,0,1)}()}),i.addStep({title:"We know the password now!",content:"Just enter 'password'",showAt:"#io_input_box",align:"center bottom",waitToShow:t(),continueWhen:n("password",1)}),i.addStep({title:"That's it!",content:"You now know enough to break more locks.",showAt:"#ss-submit",align:"center bottom",continueWhen:"click #ss-submit"}),cpu.get("/whoami",function(e){"Tutorial"==e.level&&(guide.register(),Guideline.setCurrentPage("/cpu/debugger"),Guideline.getGuide("welcome").start(function(){}))})});
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/assets/debugger-2069d7cd3ced1a62004841545ae8342d.css HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: text/css
+Content-Length: 2533
+Connection: keep-alive
+Expires: Thu, 02 Mar 2017 23:56:09 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+Accept-Ranges: bytes
+
+div.debug-menu nav{display:inline-block}div.debug-menu{height:50px;line-height:50px;background-color:#4a5258}div.debug-menu nav ul li{display:inline-block}#left-menu ul li{margin-left:18px}#left-menu ul li:first-child{margin-left:0}#left-menu ul li a{height:37px;width:48px}#right-menu{text-align:right;float:right}#right-menu ul li{margin-left:24px}#right-menu ul li:first-child{margin-left:0}#right-menu ul li a{display:inline-block;background-color:#1dbca4;color:#24343e;font-weight:bold;font-size:16px;line-height:36px;padding-left:10px;padding-right:10px}.column-1{margin-right:550px;display:block}.column-2{width:532px;float:right}.wrap{max-width:1200px;width:auto;padding-left:20px;padding-right:20px}.teal-box{border:1px solid #00b9a0;margin-bottom:20px}h2{padding-left:10px;line-height:36px;font-size:16px}.teal-box h2{color:#26343e;background-color:#00b9a0}.gold-box{border:1px solid #ec9300;margin-bottom:20px}.gold-box h2{color:#26343e;background-color:#ec9300}.gold-box.smaller{width:315px;float:left}.gold-box.smaller2{width:203px;float:left;margin-left:10px}code{display:block;margin:10px;font-family:monospace}code span{display:block}.insnlabel{color:#8f7948}.insn{color:#ffffff}.red{color:#ed0304}#memorybox span{display:inline}#registers span{display:inline}#memorybox{height:240px;overflow:auto;position:relative;resize:vertical}#ioresponses{height:100px;overflow:auto;resize:vertical}.textentrywrap{padding-left:10px;padding-right:10px;padding-bottom:5px}.replresponsesouter{height:325px;overflow:auto;resize:vertical}#gray_bg h2{display:block}#asmbox{overflow:auto;height:350px;padding:3px;resize:vertical}input.textentry{width:99%}#memorybox div.watchline{border-bottom:1px;border-bottom-color:#ff0000;border-bottom-style:dashed}#memorybox span.watchbox{font-family:monospace;border:1px;border-color:#ff0000;border-style:dashed}#memorybox span.pointedat{border:1px;border-color:#ff0000;border-style:dashed}#memorybox span{border:1px solid #26343e}div#io_output_box_wrap{margin-top:10px;margin-bottom:10px}div#io_output_box{bord:#333;padding:15px;max-height:350px;border:1px solid #6a7279;overflow:auto}input#io_input_box{margin-top:20px;width:400px}div#gray_bg{position:absolute;top:0px;left:0px;width:100%;height:100%}div#real_bg{position:fixed;top:0px;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5)}div.myalert_outer{position:absolute;width:auto;height:auto;left:50%;top:340px}div.myalert_inner{position:relative;left:-300px;top:-200px;width:600px;background:#26343e}div.spaceborder{padding:10px}
+
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/assets/guideline-824f2f93d9fb439801534265711ae479.css HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: text/css
+Content-Length: 2486
+Connection: keep-alive
+Expires: Thu, 02 Mar 2017 23:56:09 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+Accept-Ranges: bytes
+
+div.gl-proxy-disclaimer{background-color:red;color:#fff;padding:5px;text-align:center;font-weight:bold}div.gl-proxy-disclaimer a,div.gl-proxy-disclaimer a:visited,div.gl-proxy-disclaimer a:link{color:#fff;text-decoration:underline}.gl-overlay{color:white}.gl-overlay h1{font-size:2em;margin-bottom:18px}.gl-overlay p{margin-bottom:30px;font-size:1em;max-width:800px;text-align:left;float:center}.gl-overlay .btn.btn-alpha-blue.btn-large{padding:5px 46px;margin-bottom:13px;font-size:20px;font-weight:600}.gl-overlay a,.gl-overlay a:hover,.gl-overlay a:visited{color:#fff;text-decoration:underline}.gl-bubble{border-radius:5px;background-color:#fff;padding:10px;box-shadow:0 0 9px 2px rgba(35,35,35,0.5);color:#000;min-width:300px !important}.gl-bubble .content{padding:10px;max-width:800px}.gl-bubble .content p{min-width:300px}.gl-bubble .gl-close,.gl-bubble .gl-close:visited,.gl-bubble .gl-close:active{position:absolute;right:8px;top:4px;font-weight:bold;text-decoration:none;color:#08C}.gl-bubble .gl-close:hover{text-decoration:none;color:#005580}.gl-bubble h2{font-size:1.5em;padding:0;margin:0}.gl-bubble h2+div{margin-top:10px}.gl-bubble .btn.btn-alpha-blue{background:#BBB;margin-top:17px}.gl-bubble .btn.btn-alpha-blue:hover{background:#999}.gl-bubble .progress-bar{height:2px;background-color:#c0c0c0}.gl-bubble .arrow,.gl-bubble .arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.gl-bubble .arrow{border-width:11px}.gl-bubble .arrow:after{border-width:10px;content:""}.gl-bubble.top{margin-top:-15px}.gl-bubble.top .arrow{bottom:-11px;left:50%;margin-left:-11px;border-top-color:#fff;border-bottom-width:0}.gl-bubble.top .arrow:after{bottom:1px;margin-left:-10px;border-top-color:#fff;border-bottom-width:0}.gl-bubble.right{margin-left:15px}.gl-bubble.right .arrow{top:50%;left:-11px;margin-top:-11px;border-right-color:#fff;border-left-width:0}.gl-bubble.right .arrow:after{bottom:-10px;left:1px;border-right-color:#fff;border-left-width:0}.gl-bubble.bottom{margin-top:15px}.gl-bubble.bottom .arrow{top:-11px;left:50%;margin-left:-11px;border-bottom-color:#fff;border-top-width:0}.gl-bubble.bottom .arrow:after{top:1px;margin-left:-10px;border-bottom-color:#fff;border-top-width:0}.gl-bubble.left{margin-right:15px}.gl-bubble.left .arrow{top:50%;right:-11px;margin-top:-11px;border-left-color:#fff;border-right-width:0}.gl-bubble.left .arrow:after{right:1px;bottom:-10px;border-left-color:#fff;border-right-width:0}
+
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/is_alive HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "68934a3e9455fa72420237eb05902327"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 364d252933ce825515bed059942f4115
+X-Runtime: 0.002284
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 5
+
+false
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/whoami HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "cb09afcce76925f132e326b76b6db67d"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 3bb3dd989f25149a8a4e85f1e24bb288
+X-Runtime: 0.002983
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 39
+
+{"name":"Userlame","level":"Reykjavik"}
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/load HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "c619f8230353430f0932d1deac414060"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 6b0d56109ad281213e664f8b79bfdbb8
+X-Runtime: 0.006863
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 52
+
+{"data":{"isdebug":"false","reason":"","state":"0"}}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/get_manual HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:09 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "3a639a97ecd776dec613f3d0f2a954b4"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 57a2b0c419a9fb35a7a1826c5bfcf9a5
+X-Runtime: 0.004177
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 1894
+
+{"manual":"Lockitall                                            LOCKIT PRO r a.03\n______________________________________________________________________\n\n              User Manual: Lockitall LockIT Pro, rev a.03              \n______________________________________________________________________\n\n\nOVERVIEW\n\n    - Lockitall developers  have implemented  military-grade on-device\n      encryption to keep the password secure.\n    - This lock is not attached to any hardware security module.\n\n\nDETAILS\n\n    The LockIT Pro a.03  is the first of a new series  of locks. It is\n    controlled by a  MSP430 microcontroller, and is  the most advanced\n    MCU-controlled lock available on the  market. The MSP430 is a very\n    low-power device which allows the LockIT  Pro to run in almost any\n    environment.\n\n    The  LockIT  Pro   contains  a  Bluetooth  chip   allowing  it  to\n    communiciate with the  LockIT Pro App, allowing the  LockIT Pro to\n    be inaccessable from the exterior of the building.\n\n    There is  no default password  on the LockIT  Pro---upon receiving\n    the LockIT Pro, a new password must be set by connecting it to the\n    LockIT Pro  App and  entering a password  when prompted,  and then\n    restarting the LockIT Pro using the red button on the back.\n    \n    This is Hardware  Version A.  It contains  the Bluetooth connector\n    built in, and one available port  to which the LockIT Pro Deadbolt\n    should be connected.\n\n    This is Software Revision 02. This release contains military-grade\n    encryption so users can be confident that the passwords they enter\n    can not be read from memory.   We apologize for making it too easy\n    for the password to be recovered on prior versions.  The engineers\n    responsible have been sacked.\n\n    \n\n\n(c) 2013 LOCKITALL                                            Page 1/1"}
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/reset/debug HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: https://www.microcorruption.com
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:10 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "6bdf9f89a41b66f47e0ba176f1625cfa"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: e3fa8f76815f7a7664dd8d3bd934a1ae
+X-Runtime: 0.034107
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 25
+
+{"data":{"success":true}}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/cpu/snapshot?x=1456962975276 HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:10 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "ec1debc55c53e66e664a4c5cd88dcc3d"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 1b9ef6703a60ebc41fd4a046124c8895
+X-Runtime: 0.003160
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 1530
+
+{"advanced":false,"advanced_steps":0,"new_output":"","state":"0","reason":"","isdebug":"true","regs":[17408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"insn":"3140 0044      mov\t#0x4400, sp","updatememory":"44600f4e8f10024f32d00080b0121000324144e0ff000a4c3a507c24684a4b584b4b0d4b44003140004415425c0175f335d0085a3f4044806768743f00000b120a12091208120d43ffe0564456445644564456445644564456444560cb6fb8e9333c5aa15cee906bd1aaa1c345207768617427732074686520706173737744301f83cf437c24fa233e4020450f4e3e40fff0564456445644564456445644564400444490cd4d7c241d533d900001fa233c407c244440f8003f400024b0128644b01200240f434590caa2a30df344815e3e10e7652bc8283744107c000f93072482455c012f839f4f3845ffa05644564456445644564456445644564444c07c24694aca480000cc4900001b531c53ffb05644564456445644564456445644564444200024f9233f4000010f93062482455c0144d03b900001e7230b430c4b183c1c533cf0454038642bc6427762b8c3cad965a40ac1a345b0aefeb409000000000000000000000000445032d0f000fd3f304036451e410200021245a0abadab3f8cfa754d8ff0b0836b3eb3c7ff805644564456445644564456445644564444b05a4a72448a110d5a3df0ff000a4d3a50ffd0564456445644564456445644564456444570a9868d1408a5a22cbaa51957192dabe144f03d507c24694dcd480000ca490000695d45004d49dfed7c2400001f533e530e93e623000000004400000000000000000000000000ffc056445644564456445644564456445644ff90564456445644564456445644564456444550bbd1a6eab3eb180f78afea7e5c8ec69544703041546869734973536563757265526945306f72643f000000134c851bc580dfe9bf458066b969764a08e95cd919806907a5ef0144a00d430b4d684c4a480d5a0a4b3af00f004510384139413a413b4130410e4f0f4e3041"}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/cpu/dbg/events?x=1456962975276 HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:10 GMT
+Content-Type: text/javascript; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "c26be89d9cb9cf3b4f242a86d822c747"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: 4f75b2a46d82080766cf89a08bad7bd2
+X-Runtime: 0.003133
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 37
+
+{"data":{"events":{},"success":true}}
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/logout HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CkkiCXVzZXIGOgZFRmkCQhhJIg9zZXNzaW9uX2lkBjsARkkiJTQ5OWIzMWU1NGI3M2QyZmZmZWJjMzhkYWRhMDE1ODVjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUV0emxEaS92NFBHNlhKNUhnV3VscHo1UmlCSmFWdmtPYlkwaUQvbkxQU2c9BjsARkkiCGNwdQY7AEZJIjRtc3Aubjd3emhDM3FyWjl4azdoSWxyVVM2NmZsWWQ4LWtPbmNxajY3V24xSURhUQY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhU3Y2Y0ZWQ4OTVkMWVkZWNjBjsAVA%3D%3D--58ce2341f43ba5968c237d7d6eb7a3be6e6c18cb
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:25 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Location: http://www.microcorruption.com/
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache, private
+Set-Cookie: _cpuctf_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTc2MjQwYWVhNGE3NzQ5NDBmMjZkNTMxNTFlYjM1Njg2BjsAVA%3D%3D--0aa3ccc14c7580001c3a325f8b338bf9fa663367; path=/; HttpOnly
+X-Request-Id: e03fe8ddc5ac6826372bf18e075a72aa
+X-Runtime: 0.001795
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 97
+
+<html><body>You are being <a href="http://www.microcorruption.com/">redirected</a>.</body></html>
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/ HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTc2MjQwYWVhNGE3NzQ5NDBmMjZkNTMxNTFlYjM1Njg2BjsAVA%3D%3D--0aa3ccc14c7580001c3a325f8b338bf9fa663367
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:25 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Location: http://www.microcorruption.com/login
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache, private
+Set-Cookie: _cpuctf_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTc2MjQwYWVhNGE3NzQ5NDBmMjZkNTMxNTFlYjM1Njg2BjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEY%3D--9f565c146a54ede4bb27d897082b9187d250da7a; path=/; HttpOnly
+X-Request-Id: 666c920fd8e9a419c1f9c25e6abe483e
+X-Runtime: 0.001331
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 102
+
+<html><body>You are being <a href="http://www.microcorruption.com/login">redirected</a>.</body></html>
+
+------------------------------------------------------------------
+
+GET https://www.microcorruption.com/login HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTc2MjQwYWVhNGE3NzQ5NDBmMjZkNTMxNTFlYjM1Njg2BjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEY%3D--9f565c146a54ede4bb27d897082b9187d250da7a
+Cache-Control: no-cache, private
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:25 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "6b0017c7eac4312df643af99ade0b931"
+Cache-Control: must-revalidate, private, max-age=0
+Set-Cookie: _cpuctf_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTc2MjQwYWVhNGE3NzQ5NDBmMjZkNTMxNTFlYjM1Njg2BjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEZJIhBfY3NyZl90b2tlbgY7AEZJIjF1QmVUdUVWMXN1SFVYTjZvSy9jMFNNbUJJUmttNUg3Y1g4N3hsc2pMUnc4PQY7AEY%3D--33e46b9b597f829b655fa255f6b229dad6710c8d; path=/; HttpOnly
+X-Request-Id: 10006e40802f273cf09ffd4dd98a10db
+X-Runtime: 0.002940
+X-Rack-Cache: miss
+Strict-Transport-Security: max-age=3456000
+Content-Length: 4960
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ltie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 ltie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 ltie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]> ><! <![endif]-->
+<html lang='en'>
+<!-- <![endif] -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='' name='keywords'>
+<meta content='' name='description'>
+<meta content='' name='author'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="uBeTuEV1suHUXN6oK/c0SMmBIRkm5H7cX87xlsjLRw8=" name="csrf-token" />
+<script src="/assets/application-a237f6ba975152067b88e2b0aa2eb4c5.js" type="text/javascript"></script>
+<link href="/assets/application-974b835d4cab4eed5e6134e3f82960f8.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Embedded Security CTF</title>
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+<header id='header'>
+<div class='wrap clearfix'>
+<a class='logo left' href='http://matasano.com/careers'>
+<img height='30' src='/assets/mtsologo.png' width='30'>
+</a>
+<a class='logo left' href='//squareup.com/' style='position: relative; top: 3px;'>
+<img height='22' src='/assets/squarelogo.png' width='22'>
+</a>
+<nav class='right' id='nav'>
+<ul>
+<li>
+<a href='/'>Main</a>
+</li>
+<li>
+<a href='/hall_of_fame'>Hall of Fame</a>
+</li>
+<li>
+<a href='/about'>About</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id='flashes'>
+<div class='wrap clearfix'>
+</div>
+</div>
+<style>
+  p { margin: 0.5em 0; }
+</style>
+<main id='main_content'>
+<div class='wrap'>
+<header>
+<h2>Embedded Security CTF</h2>
+</header>
+<section>
+<table class='green_table'>
+<tr>
+<td>
+<p>Scattered throughout the world in locked warehouses are briefcases filled with Cy Yombinator bearer bonds that could be worth billions comma billions of dollars. You will help steal the briefcases.</p>
+<p>Cy Yombinator has cleverly protected the warehouses with Lockitall electronic lock devices. Lockitall locks are unlockable with an app. We've positioned operatives near each warehouse; each is waiting for you to successfully unlock the warehouse by tricking out the locks.</p>
+<p>The Lockitall devices work by accepting Bluetooth connections from the Lockitall LockIT Pro app. We've done the hard work for you: we spent $15,000 on a development kit that includes remote controlled locks for you to practice on, and reverse engineered enough of it to build a primitive debugger.</p>
+<p>Using the debugger, you'll be able to single step the lock code, set breakpoints, and examine memory on your own test instance of the lock. You'll use the debugger to find an input that unlocks the test lock, and then replay it to a real lock.</p>
+<p>Should be a milk run. Good luck. We'll see you on a beach in St Tropez once you're done.</p>
+</td>
+</tr>
+</table>
+<form action='/login' class='real form-inline' method='POST'>
+<table class='orange_table form'>
+<tr>
+<td>Username</td>
+<td>
+<input class='input-medium' name='name' placeholder='Username' type='TEXT'>
+</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>
+<input class='input-medium' name='password' placeholder='Password' type='PASSWORD'>
+</td>
+<td>
+<button class='button orange' type='SUBMIT'>Log in</button>
+</td>
+<td>
+<a href='https://matasano.wufoo.com/forms/embedded-systems-memory-corruption-ctf/'>sign up</a>
+(or
+<a href='/forgot_password'>forgot your password</a>
+)
+</td>
+</tr>
+</table>
+</form>
+</section>
+</div>
+</main>
+
+<footer id='footer'>
+<div class='wrap'>
+<div class='copy align_center'>© Matasano Security and Square, Inc 2014</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+  String.prototype.last = function(n) {
+    if (n > this.length)
+      return this;
+    else {
+      return this.substring(this.length, this.length - n);
+    }
+  };
+  
+  var csrf_param = $("meta[name=csrf-param]").attr('content');
+  var csrf_value = $("meta[name=csrf-token]").attr('content');
+  
+  $(function() { 
+    $("form.real").each(function() {
+      $("<input>").attr("type", "HIDDEN").
+        attr("name", csrf_param).
+        val(csrf_value).
+        appendTo($(this));
+    });
+  
+    $(".close").click(function() {
+      console.log("whee", this, $(this).closest(".alert"));
+      $(this).closest(".alert").remove()
+    });
+  });
+  
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+                             $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+  $(function() {
+   function moveFooter() {
+     var offset = $(window).height() - $('body').height();
+     if (offset > 0) {
+       $('footer').css('position', 'relative').css('top', offset + 'px');
+     } else {
+       $('footer').css('position', 'static');
+     }
+   }
+   $(window).resize(moveFooter);
+   $(window).load(moveFooter);
+   moveFooter();
+  });
+</script>
+
+
+------------------------------------------------------------------
+
+POST https://www.microcorruption.com/cpu/dbg/kill HTTP/1.1
+Host: www.microcorruption.com
+Connection: keep-alive
+Content-Length: 11
+Accept: */*
+Origin: https://www.microcorruption.com
+X-CSRF-Token: EtzlDi/v4PG6XJ5HgWulpz5RiBJaVvkObY0iD/nLPSg=
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Content-Type: application/json
+Referer: https://www.microcorruption.com/cpu/debugger
+Accept-Encoding: 
+Accept-Language: en-US,en;q=0.8
+Cookie: _cpuctf_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTc2MjQwYWVhNGE3NzQ5NDBmMjZkNTMxNTFlYjM1Njg2BjsAVEkiD3JldHVybl91cmwGOwBGSSIkaHR0cDovL3d3dy5taWNyb2NvcnJ1cHRpb24uY29tLwY7AEZJIhBfY3NyZl90b2tlbgY7AEZJIjF1QmVUdUVWMXN1SFVYTjZvSy9jMFNNbUJJUmttNUg3Y1g4N3hsc2pMUnc4PQY7AEY%3D--33e46b9b597f829b655fa255f6b229dad6710c8d
+Cache-Control: no-cache, private
+
+{"body":{}}
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 02 Mar 2016 23:56:26 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Location: http://www.microcorruption.com/login
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+Set-Cookie: _cpuctf_session=BAh7BzoPcmV0dXJuX3VybEkiMGh0dHA6Ly93d3cubWljcm9jb3JydXB0aW9uLmNvbS9jcHUvZGJnL2tpbGwGOgZFRkkiD3Nlc3Npb25faWQGOwZGSSIlYjZhZDBjZDY3NGMzMWE0MzI0ZmE4ZjU3ODgyYWRhOGQGOwZU--9b159d151829d36197f27c5db967121157e5ba8b; path=/; HttpOnly
+X-Request-Id: b1f238375d6a2598ab722f5b68091167
+X-Runtime: 0.001563
+X-Rack-Cache: invalidate, pass
+Strict-Transport-Security: max-age=3456000
+Content-Length: 102
+
+<html><body>You are being <a href="http://www.microcorruption.com/login">redirected</a>.</body></html>
+
+------------------------------------------------------------------
+
